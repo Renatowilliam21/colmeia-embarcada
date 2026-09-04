@@ -1,0 +1,61 @@
+{
+  "_leia_me": {
+    "proposito": "Conjunto de teste manual para avaliar o Needle 2 (motor host, sem hardware) contra o schema de tools do dominio apicola (Colmeia v2.0). Cada item tem a frase em portugues, a ferramenta esperada (ou null se a chamada correta e vazia) e os argumentos esperados.",
+    "como_usar": "Rodar cada 'frase' no motor host (tools/needle_tui.py --local) com o schema tools/colmeia.json carregado, e comparar a saida do modelo com 'ferramenta_esperada' + 'argumentos_esperados'. Marcar cada item como acerto_exato / acerto_parcial (ferramenta certa, argumento errado ou faltando) / erro (ferramenta errada) / vazio_correto / vazio_incorreto.",
+    "metricas_sugeridas": [
+      "Acuracia de correspondencia exata (ferramenta + todos os argumentos obrigatorios corretos)",
+      "Taxa de bem-formado (JSON valido contra o schema, mesmo se o conteudo estiver errado)",
+      "Taxa de rejeicao correta (chamada vazia nas categorias 'fora_escopo')",
+      "Taxa de omissao correta de parametro nao fundamentado no texto (categoria 'parametro_implicito')"
+    ],
+    "categorias": [
+      "diretos: comando claro, todos os parametros presentes na frase",
+      "variacoes_fala: mesma intencao, fraseado coloquial/informal ou numero por extenso",
+      "parametro_implicito: falta ou e vago um parametro nao-obrigatorio (duracao); o modelo deve omitir em vez de adivinhar",
+      "ambiguos: frase nao mapeia de forma limpa em um unico argumento (multiplas colmeias, referencia espacial, campo especifico)",
+      "fora_escopo: pergunta ou comando que nao corresponde a nenhuma das 3 ferramentas; resposta correta e chamada vazia []"
+    ]
+  },
+  "casos": [
+    { "id": 1, "categoria": "diretos", "frase": "Qual o status da colmeia 3?", "ferramenta_esperada": "consultar_status_colmeia", "argumentos_esperados": { "colmeia_id": 3 }, "observacao": "" },
+    { "id": 2, "categoria": "diretos", "frase": "Colmeia 7: peso e temperatura atual.", "ferramenta_esperada": "consultar_status_colmeia", "argumentos_esperados": { "colmeia_id": 7 }, "observacao": "" },
+    { "id": 3, "categoria": "diretos", "frase": "Tem alguma colmeia em alerta agora?", "ferramenta_esperada": "listar_colmeias_alerta", "argumentos_esperados": {}, "observacao": "" },
+    { "id": 4, "categoria": "diretos", "frase": "Liste as colmeias com problema.", "ferramenta_esperada": "listar_colmeias_alerta", "argumentos_esperados": {}, "observacao": "" },
+    { "id": 5, "categoria": "diretos", "frase": "Ativa o modo inspecao na colmeia 5 por 20 minutos.", "ferramenta_esperada": "ativar_modo_inspecao", "argumentos_esperados": { "colmeia_id": 5, "duracao_min": 20 }, "observacao": "" },
+    { "id": 6, "categoria": "diretos", "frase": "Preciso inspecionar a colmeia 12, pausa os alertas por 30 minutos.", "ferramenta_esperada": "ativar_modo_inspecao", "argumentos_esperados": { "colmeia_id": 12, "duracao_min": 30 }, "observacao": "" },
+    { "id": 7, "categoria": "diretos", "frase": "Como esta a colmeia 1?", "ferramenta_esperada": "consultar_status_colmeia", "argumentos_esperados": { "colmeia_id": 1 }, "observacao": "" },
+    { "id": 8, "categoria": "diretos", "frase": "Mostra os dados da colmeia 9.", "ferramenta_esperada": "consultar_status_colmeia", "argumentos_esperados": { "colmeia_id": 9 }, "observacao": "" },
+
+    { "id": 9, "categoria": "variacoes_fala", "frase": "E ai, a colmeia dois ta como?", "ferramenta_esperada": "consultar_status_colmeia", "argumentos_esperados": { "colmeia_id": 2 }, "observacao": "numero por extenso" },
+    { "id": 10, "categoria": "variacoes_fala", "frase": "Da uma olhada na colmeia quatro pra mim.", "ferramenta_esperada": "consultar_status_colmeia", "argumentos_esperados": { "colmeia_id": 4 }, "observacao": "numero por extenso" },
+    { "id": 11, "categoria": "variacoes_fala", "frase": "Alguma colmeia pedindo atencao?", "ferramenta_esperada": "listar_colmeias_alerta", "argumentos_esperados": {}, "observacao": "" },
+    { "id": 12, "categoria": "variacoes_fala", "frase": "Quais colmeias estao fora do normal?", "ferramenta_esperada": "listar_colmeias_alerta", "argumentos_esperados": {}, "observacao": "" },
+    { "id": 13, "categoria": "variacoes_fala", "frase": "Vou abrir a colmeia 6, desliga o alerta por meia hora.", "ferramenta_esperada": "ativar_modo_inspecao", "argumentos_esperados": { "colmeia_id": 6, "duracao_min": 30 }, "observacao": "conversao 'meia hora' -> 30 min, analoga ao caso 'meio segundo'->500ms do repositorio de referencia" },
+    { "id": 14, "categoria": "variacoes_fala", "frase": "Bota a colmeia 15 em modo inspecao, uns 10 minutinhos.", "ferramenta_esperada": "ativar_modo_inspecao", "argumentos_esperados": { "colmeia_id": 15, "duracao_min": 10 }, "observacao": "diminutivo coloquial" },
+    { "id": 15, "categoria": "variacoes_fala", "frase": "Peso da colmeia numero oito?", "ferramenta_esperada": "consultar_status_colmeia", "argumentos_esperados": { "colmeia_id": 8 }, "observacao": "numero por extenso" },
+    { "id": 16, "categoria": "variacoes_fala", "frase": "Umidade e temperatura da colmeia 20, por favor.", "ferramenta_esperada": "consultar_status_colmeia", "argumentos_esperados": { "colmeia_id": 20 }, "observacao": "" },
+
+    { "id": 17, "categoria": "parametro_implicito", "frase": "Ativa modo inspecao na colmeia 3.", "ferramenta_esperada": "ativar_modo_inspecao", "argumentos_esperados": { "colmeia_id": 3 }, "observacao": "duracao_min ausente na frase; correto e o modelo OMITIR o campo, nao adivinhar um valor" },
+    { "id": 18, "categoria": "parametro_implicito", "frase": "Preciso mexer na colmeia 11 rapidinho.", "ferramenta_esperada": "ativar_modo_inspecao", "argumentos_esperados": { "colmeia_id": 11 }, "observacao": "'rapidinho' nao e valor numerico fundamentavel; duracao_min deve ficar ausente" },
+    { "id": 19, "categoria": "parametro_implicito", "frase": "Status.", "ferramenta_esperada": "consultar_status_colmeia", "argumentos_esperados": null, "observacao": "colmeia_id e obrigatorio e nao esta na frase; caso de teste do limite -- esperado e falha limpa (campo obrigatorio ausente), nao um id inventado" },
+    { "id": 20, "categoria": "parametro_implicito", "frase": "Colmeias com alerta nos ultimos dias?", "ferramenta_esperada": "listar_colmeias_alerta", "argumentos_esperados": {}, "observacao": "ferramenta atual nao tem filtro de periodo; 'ultimos dias' deve ser ignorado, nao inventado como argumento" },
+    { "id": 21, "categoria": "parametro_implicito", "frase": "Inspecao na colmeia 9 por um quarto de hora.", "ferramenta_esperada": "ativar_modo_inspecao", "argumentos_esperados": { "colmeia_id": 9, "duracao_min": 15 }, "observacao": "conversao 'quarto de hora' -> 15 min" },
+    { "id": 22, "categoria": "parametro_implicito", "frase": "Coloca a colmeia 2 em inspecao ate eu terminar.", "ferramenta_esperada": "ativar_modo_inspecao", "argumentos_esperados": { "colmeia_id": 2 }, "observacao": "duracao indefinida; duracao_min deve ficar ausente" },
+
+    { "id": 23, "categoria": "ambiguos", "frase": "Colmeia 3 e colmeia 4, como estao?", "ferramenta_esperada": "consultar_status_colmeia", "argumentos_esperados": null, "observacao": "duas colmeias, ferramenta so aceita uma; observar se o modelo escolhe uma, falha, ou tenta produzir duas chamadas (nao suportado por este schema de 1 chamada)" },
+    { "id": 24, "categoria": "ambiguos", "frase": "As colmeias da fileira de tras estao bem?", "ferramenta_esperada": null, "argumentos_esperados": null, "observacao": "sem id numerico fundamentavel; esperado e chamada vazia" },
+    { "id": 25, "categoria": "ambiguos", "frase": "Coloca todas as colmeias em modo inspecao.", "ferramenta_esperada": "ativar_modo_inspecao", "argumentos_esperados": null, "observacao": "'todas' nao e um colmeia_id valido (schema aceita so integer 1-50); esperado e colmeia_id ausente ou chamada vazia" },
+    { "id": 26, "categoria": "ambiguos", "frase": "A colmeia la do fundo, perto da mangueira, ta como?", "ferramenta_esperada": null, "argumentos_esperados": null, "observacao": "referencia espacial, sem id; esperado e chamada vazia" },
+    { "id": 27, "categoria": "ambiguos", "frase": "Inspecao na colmeia 5, tipo, agora.", "ferramenta_esperada": "ativar_modo_inspecao", "argumentos_esperados": { "colmeia_id": 5 }, "observacao": "'agora' nao e duracao; duracao_min deve ficar ausente" },
+    { "id": 28, "categoria": "ambiguos", "frase": "Quero saber da colmeia 3, mas so a temperatura.", "ferramenta_esperada": "consultar_status_colmeia", "argumentos_esperados": { "colmeia_id": 3 }, "observacao": "schema atual nao filtra por campo especifico; limitacao de design a discutir no artigo, nao falha do modelo" },
+
+    { "id": 29, "categoria": "fora_escopo", "frase": "Vai chover hoje?", "ferramenta_esperada": null, "argumentos_esperados": null, "observacao": "" },
+    { "id": 30, "categoria": "fora_escopo", "frase": "Qual a previsao do tempo pra semana?", "ferramenta_esperada": null, "argumentos_esperados": null, "observacao": "" },
+    { "id": 31, "categoria": "fora_escopo", "frase": "Quanto custa um quilo de mel?", "ferramenta_esperada": null, "argumentos_esperados": null, "observacao": "" },
+    { "id": 32, "categoria": "fora_escopo", "frase": "Explica como funciona a colmeia.", "ferramenta_esperada": null, "argumentos_esperados": null, "observacao": "pedido de explicacao, nao de acao/consulta" },
+    { "id": 33, "categoria": "fora_escopo", "frase": "Oi, tudo bem?", "ferramenta_esperada": null, "argumentos_esperados": null, "observacao": "saudacao" },
+    { "id": 34, "categoria": "fora_escopo", "frase": "Reinicia o sistema.", "ferramenta_esperada": null, "argumentos_esperados": null, "observacao": "comando plausivel mas fora do schema testado (nao existe reset_sistema nas 3 ferramentas)" },
+    { "id": 35, "categoria": "fora_escopo", "frase": "Qual o preco do dolar hoje?", "ferramenta_esperada": null, "argumentos_esperados": null, "observacao": "" },
+    { "id": 36, "categoria": "fora_escopo", "frase": "Manda um relatorio completo do mes passado.", "ferramenta_esperada": null, "argumentos_esperados": null, "observacao": "fora do schema atual (sem ferramenta de relatorio periodico)" }
+  ]
+}

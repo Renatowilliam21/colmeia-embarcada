@@ -1,0 +1,191 @@
+% =====================================================================
+% ESQUELETO — ERCEMAPI 2026
+% Baixe o template oficial em:
+% https://www.sbc.org.br/wp-content/uploads/2024/07/modelosparapublicaodeartigos.zip
+% e substitua o preambulo abaixo pelo sbc-template.cls oficial deles.
+% Este arquivo assume os comandos padrao do sbc-template (\title, \author,
+% \address, ambientes resumo/abstract) — ajuste se a versao baixada diferir.
+% =====================================================================
+\documentclass[12pt]{article}
+\usepackage{sbc-template}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+% ---------------------------------------------------------------------
+% DOUBLE BLIND: nao preencher \author nem \address nesta fase.
+% O proprio template SBC tem um modo de ocultar essa secao — checar no
+% pacote baixado. Nao deixar nomes de autores, IFCE, LISA, nem "Luiz
+% Henrique" em lugar nenhum do corpo do texto ou dos agradecimentos.
+% ---------------------------------------------------------------------
+\title{Avaliação Exploratória de um Modelo Compacto de \emph{Tool-Calling}
+para Interfaces de Comando em Português no Contexto de IoT Apícola}
+
+% \author{Omitido para revisão double-blind}
+% \address{Omitido para revisão double-blind}
+
+\begin{document}
+
+\maketitle
+
+\begin{resumo}
+% TODO (~150 palavras): objetivo, metodo (motor host + hardware real
+% ESP32-S3 N16R8), 36 casos de teste, principais metricas encontradas,
+% uma frase de conclusao/contribuicao.
+\end{resumo}
+
+\begin{abstract}
+% TODO: versao em ingles do resumo acima.
+\end{abstract}
+
+% =====================================================================
+\section{Introdução}
+% TODO, ~1 pagina. Sugestao de estrutura:
+% - Contexto: IoT aplicado a apicultura em regiao de semiarido, operadores
+%   nem sempre tecnicos, conectividade instavel em campo.
+% - Problema: interfaces de comando tradicionais (comandos seriais fixos,
+%   paineis web) exigem que o operador memorize sintaxe.
+% - Lacuna: modelos de linguagem convencionais sao pesados demais para
+%   microcontroladores; a maioria dos benchmarks de tool-calling compacto
+%   e feita em ingles, sem avaliacao em portugues nem em dominio agricola.
+% - Contribuicao deste trabalho (deixar claro que e EXPLORATORIO,
+%   sem validacao em campo com colmeia real):
+%   1) schema de ferramentas para comando por linguagem natural no
+%      dominio apicola;
+%   2) conjunto de teste de 36 frases em portugues cobrindo comandos
+%      diretos, variacoes coloquiais, parametros implicitos, ambiguidade
+%      e frases fora de escopo;
+%   3) avaliacao end-to-end no hardware-alvo real (ESP32-S3 N16R8),
+%      incluindo latencia por tipo de comando.
+
+% =====================================================================
+\section{Trabalhos Relacionados}
+% TODO, ~1 pagina. Citar:
+% - Needle 2 / Cactus Compute (arXiv:2607.18363) — arquitetura Simple
+%   Attention Network, quantizacao Cactus Quants CQ2-bit, resultados em
+%   Mobile Actions / DroidCall / Seal-Tools / BFCL v4.
+% - Trabalhos de IoT em apicultura (Colmeia v2.0 e correlatos da
+%   literatura — buscar 2-4 referencias de monitoramento de colmeias
+%   com sensores, sem citar o proprio projeto de forma identificavel).
+% - Trabalhos de interfaces de comando por voz/texto em dispositivos de
+%   borda (ESP-SR da Espressif, outros modelos pequenos de tool-calling
+%   como FunctionGemma, LFM2.5, mencionados no material do Cactus).
+% - Posicionar a lacuna: nenhum desses avalia comando em portugues nem
+%   dominio agricola regional.
+
+% =====================================================================
+\section{Proposta}
+% TODO, ~1-1.5 pagina. Descrever a arquitetura textualmente e referenciar
+% a Figura 1 (fluxograma). Detalhar:
+% - As 3 ferramentas do schema (consultar_status_colmeia,
+%   listar_colmeias_alerta, ativar_modo_inspecao) e a decisao de manter
+%   o schema pequeno (orcamento de ~256 tokens de contexto do Needle 2).
+% - O fluxo: comando em texto -> inferencia local restrita por gramatica
+%   -> chamada valida ou chamada vazia -> execucao do handler -> resposta.
+% - Deixar explicito que os handlers usam dados MOCK nesta fase (nao ha
+%   integracao real com sensores de uma estacao Colmeia neste experimento).
+
+\begin{figure}[h]
+  \centering
+  % Exportar o SVG do fluxograma como PDF antes de incluir (Inkscape,
+  % ou "Export as PDF" em qualquer visualizador de SVG).
+  \includegraphics[width=0.85\textwidth]{fluxo_needle2_colmeia.pdf}
+  \caption{Fluxo de funcionamento do comando por linguagem natural.}
+  \label{fig:fluxo}
+\end{figure}
+
+% =====================================================================
+\section{Metodologia}
+% TODO, ~1.5 pagina. Subsecoes sugeridas:
+
+\subsection{Hardware e ambiente}
+% TODO: ESP32-S3-WROOM-1 N16R8 (16 MB flash, 8 MB PSRAM octal), motor
+% host para ensaios preliminares, ESP-IDF v5.5+, modelo needle2.cact
+% (Cactus Compute, Apache 2.0).
+
+\subsection{Schema de ferramentas}
+% TODO: reproduzir o schema compactado (ou referenciar apendice), com
+% justificativa do numero de ferramentas dado o limite de contexto.
+
+\subsection{Conjunto de teste}
+% TODO: descrever as 36 frases e as 5 categorias (diretos, variacoes de
+% fala, parametro implicito, ambiguos, fora de escopo). Justificar que
+% o conjunto foi construido manualmente para cobrir casos de uso reais
+% de um apicultor, incluindo casos-limite deliberados.
+
+\subsection{Protocolo experimental e metricas}
+% TODO: descrever a execucao automatizada (script sobre a TUI de
+% referencia), numero de repeticoes por frase (se houve), e definir
+% formalmente as 4 metricas:
+% - acuracia de correspondencia exata
+% - taxa de bem-formado (JSON valido contra o schema)
+% - taxa de rejeicao correta (fora_escopo -> chamada vazia)
+% - taxa de omissao correta de parametro nao fundamentado
+% - latencia media/minima/maxima por requisicao
+
+% =====================================================================
+\section{Resultados}
+% TODO apos rodar o experimento. Tabelas sugeridas:
+
+\begin{table}[h]
+\centering
+\caption{Métricas agregadas por categoria de comando.}
+\label{tab:metricas}
+\begin{tabular}{lccc}
+\toprule
+Categoria & N & Acurácia exata & Latência média (s) \\
+\midrule
+Diretos            & 8 & TODO & TODO \\
+Variações de fala   & 8 & TODO & TODO \\
+Parâmetro implícito & 6 & TODO & TODO \\
+Ambíguos            & 6 & TODO & TODO \\
+Fora de escopo      & 8 & TODO & TODO \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% TODO: uma segunda tabela ou paragrafo discutindo os casos individuais
+% mais interessantes (principalmente das categorias ambiguos e
+% parametro_implicito, que sao ricos em nuance).
+
+% =====================================================================
+\section{Discussão}
+% TODO, ~1 pagina. Pontos a cobrir:
+% - O modelo foi treinado em ingles; discutir o impacto disso nos
+%   resultados em portugues, com base nos numeros da Secao 5.
+% - Viabilidade real de embarque no ESP32-S3 N16R8 (memoria, latencia
+%   medida vs. os ~25-47s reportados pelo Cactus em outros dispositivos).
+% - Quando faz sentido usar um modelo vs. regras deterministicas (conectar
+%   com a decisao de projeto do firmware da estacao meteorologica, que
+%   usa regras fixas por restricao de memoria do ESP32 classico).
+% - Limitacoes: dados mock, sem validacao com apicultor real, dataset
+%   pequeno (36 casos), sem fine-tuning.
+
+% =====================================================================
+\section{Trabalhos Futuros}
+% TODO. Incluir pelo menos:
+% - Integracao com a API real da estacao de monitoramento de colmeias.
+% - "O hardware utilizado ja dispoe de microfone integrado; a integracao
+%   de um pipeline de reconhecimento de fala em portugues, compativel
+%   com o orcamento de memoria do dispositivo, e apontada como extensao
+%   natural deste trabalho."
+% - Fine-tuning do Needle 2 com corpus proprio de comandos apicolas em
+%   portugues (processo local, documentado pelo proprio projeto Cactus).
+% - Validacao de campo com apicultores reais.
+
+% =====================================================================
+\section{Conclusão}
+% TODO, ~0.5 pagina. Retomar objetivo, principal achado quantitativo,
+% e a mensagem central (viabilidade + limitacoes claras + caminho futuro).
+
+% =====================================================================
+\bibliographystyle{sbc}
+\bibliography{referencias}
+% TODO: criar referencias.bib com pelo menos:
+% - Cactus Compute / Needle 2 (arXiv:2607.18363)
+% - 2-4 referencias de IoT em apicultura
+% - 1-2 referencias de tool-calling / modelos compactos para edge
+% - Documentacao ESP-IDF / ESP32-S3, se citada tecnicamente
+
+\end{document}
