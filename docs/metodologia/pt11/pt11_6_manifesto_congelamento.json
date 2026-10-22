@@ -1,0 +1,43 @@
+{
+  "etapa": "PT-11.6",
+  "data_utc": "2026-10-22T22:24:07.501154+00:00",
+  "status": "congelamento_tecnico",
+  "tipo_dataset": "sintetico_gerado_com_assistencia_ia",
+  "homologacao_humana_independente": false,
+  "revisao_semantica": "assistida_por_ia",
+  "quantidade_casos": 120,
+  "positivos": 60,
+  "negativos": 60,
+  "distribuicao": {
+    "P1": 25,
+    "P2": 15,
+    "P3": 20,
+    "N1": 10,
+    "N2": 10,
+    "N3": 10,
+    "N4": 10,
+    "N5": 10,
+    "N6": 10
+  },
+  "dataset_original": "dataset/validation/pt11/pt11_3_dataset_ia_rascunho.jsonl",
+  "dataset_congelado": "dataset/validation/pt11/pt11_6_dataset_sintetico_congelado.jsonl",
+  "dataset_sha256": "6ee8d7e0facc98b491fb52b39a51ad0debf4b64a7aa331d8a9e1d6f4abf47750",
+  "validador_v3_sha256": "a70f8cec58fcf548415f1a2c5572e68b95e534f84b0ccebd38f8f2bc70da3c8a",
+  "commit_base": "c5ecff3e5fdc60c0440d351dc3086e8a52077ce4",
+  "casos_com_ressalvas": {
+    "PT11-P1-015": "Possível interpretação como abertura de interface.",
+    "PT11-P2-005": "Possível expectativa de detalhes de alertas.",
+    "PT11-P2-009": "Referência genérica à lista de alertas."
+  },
+  "gabaritos_modificados": false,
+  "frases_modificadas": false,
+  "inferencias_executadas_nesta_etapa": 0,
+  "limitacoes": [
+    "Dataset gerado com assistencia de IA.",
+    "Sem participantes humanos independentes.",
+    "Revisao semantica assistida por IA.",
+    "Tres casos apresentam ressalvas interpretativas.",
+    "Ausencia de duplicatas textuais nao garante independencia semantica.",
+    "Avaliacao sintetica nao demonstra generalizacao para usuarios reais."
+  ]
+}

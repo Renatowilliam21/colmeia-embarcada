@@ -1,0 +1,25 @@
+{
+  "etapa": "PT-11.4",
+  "status": "auditoria_estatica_sem_revisao_semantica",
+  "registros": 120,
+  "distribuicao": {
+    "P1": 25,
+    "P2": 15,
+    "P3": 20,
+    "N1": 10,
+    "N2": 10,
+    "N3": 10,
+    "N4": 10,
+    "N5": 10,
+    "N6": 10
+  },
+  "positivos": 60,
+  "negativos": 60,
+  "baseline_registros": 180,
+  "sobreposicoes_exatas_normalizadas_pt09": 0,
+  "erros": 0,
+  "alertas": 0,
+  "sha256_dataset": "6ee8d7e0facc98b491fb52b39a51ad0debf4b64a7aa331d8a9e1d6f4abf47750",
+  "revisao_semantica": "pendente",
+  "inferencias_executadas": 0
+}
