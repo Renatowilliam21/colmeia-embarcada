@@ -1,0 +1,6 @@
+configuration_a,configuration_b,difference_b_minus_a_pp,ci95_lower_pp,ci95_upper_pp,cases_b_better,cases_a_better,cases_tied
+C0_Needle2,C1_Needle2_V1,9.1667,-6.6667,25.8333,55,44,21
+C0_Needle2,C2_Needle2_V2,5.8333,-10.8333,22.5,56,49,15
+C0_Needle2,C3_Needle2_V3,5.8333,-10.8333,21.6667,56,49,15
+C1_Needle2_V1,C3_Needle2_V3,-3.3333,-7.5,0.0,1,5,114
+C2_Needle2_V2,C3_Needle2_V3,0.0,0.0,0.0,0,0,120

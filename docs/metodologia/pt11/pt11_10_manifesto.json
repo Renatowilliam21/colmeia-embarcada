@@ -1,0 +1,14 @@
+{
+  "stage": "PT-11.10",
+  "created_at_utc": "2026-10-22T22:57:49.535760+00:00",
+  "report": "docs/metodologia/pt11/pt11_10_relatorio_tecnico.md",
+  "report_sha256": "58367861b11cef7bfa1f51f6c558faaab03be691641e12007fc362843fd2c270",
+  "inputs": {
+    "results/evaluation/pt11/pt11_8/pt11_8_resumo.json": "2cea16f42868f223f85c2626cf4884ce6d6160152fff301df6b5274282478b98",
+    "results/evaluation/pt11/pt11_8/pt11_8_detalhado.csv": "131ca75eb11cb88deacac470cd86298abb562d79dfe197ec45cbc0e0de79b1bd",
+    "results/evaluation/pt11/pt11_9/pt11_9_resumo_estatistico.json": "a2f33688de77b2a6722dc457b12ba44680f6f9fc33b1675caa85a0f9a2181816"
+  },
+  "status": "relatorio_tecnico_consolidado",
+  "human_validation": false,
+  "physical_actuation": false
+}

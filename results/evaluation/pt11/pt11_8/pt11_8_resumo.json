@@ -1,0 +1,280 @@
+{
+  "etapa": "PT-11.8",
+  "analysis_type": "synthetic_out_of_development_evaluation",
+  "independent_human_validation": false,
+  "dataset_origin": "synthetic_ai_assisted",
+  "dataset_sha256": "6ee8d7e0facc98b491fb52b39a51ad0debf4b64a7aa331d8a9e1d6f4abf47750",
+  "raw_sha256": "fba9ce9e24a2c7019a49b0edecee873ae4bb1e1e412c3410267c5efdce53253f",
+  "v3_sha256": "a70f8cec58fcf548415f1a2c5572e68b95e534f84b0ccebd38f8f2bc70da3c8a",
+  "cases": 120,
+  "repetitions": 3,
+  "inferences": 360,
+  "configurations": {
+    "C0_Needle2": {
+      "total": 360,
+      "exact_match": 153,
+      "exact_match_percent": 42.5,
+      "negative_cases": 180,
+      "correct_abstentions": 6,
+      "correct_abstention_percent": 3.3333,
+      "unauthorized_calls_negative": 168,
+      "unauthorized_calls_negative_percent": 93.3333,
+      "unauthorized_actuations": 72,
+      "positive_cases": 180,
+      "correct_positive_cases": 147,
+      "correct_positive_percent": 81.6667,
+      "baseline_correct_preserved": 153,
+      "baseline_correct_lost": 0,
+      "invalid_predictions": 6
+    },
+    "C1_Needle2_V1": {
+      "total": 360,
+      "exact_match": 186,
+      "exact_match_percent": 51.6667,
+      "negative_cases": 180,
+      "correct_abstentions": 171,
+      "correct_abstention_percent": 95.0,
+      "unauthorized_calls_negative": 3,
+      "unauthorized_calls_negative_percent": 1.6667,
+      "unauthorized_actuations": 3,
+      "positive_cases": 180,
+      "correct_positive_cases": 15,
+      "correct_positive_percent": 8.3333,
+      "baseline_correct_preserved": 21,
+      "baseline_correct_lost": 132,
+      "invalid_predictions": 6
+    },
+    "C2_Needle2_V2": {
+      "total": 360,
+      "exact_match": 174,
+      "exact_match_percent": 48.3333,
+      "negative_cases": 180,
+      "correct_abstentions": 174,
+      "correct_abstention_percent": 96.6667,
+      "unauthorized_calls_negative": 0,
+      "unauthorized_calls_negative_percent": 0.0,
+      "unauthorized_actuations": 0,
+      "positive_cases": 180,
+      "correct_positive_cases": 0,
+      "correct_positive_percent": 0.0,
+      "baseline_correct_preserved": 6,
+      "baseline_correct_lost": 147,
+      "invalid_predictions": 6
+    },
+    "C3_Needle2_V3": {
+      "total": 360,
+      "exact_match": 174,
+      "exact_match_percent": 48.3333,
+      "negative_cases": 180,
+      "correct_abstentions": 174,
+      "correct_abstention_percent": 96.6667,
+      "unauthorized_calls_negative": 0,
+      "unauthorized_calls_negative_percent": 0.0,
+      "unauthorized_actuations": 0,
+      "positive_cases": 180,
+      "correct_positive_cases": 0,
+      "correct_positive_percent": 0.0,
+      "baseline_correct_preserved": 6,
+      "baseline_correct_lost": 147,
+      "invalid_predictions": 6
+    }
+  },
+  "categories": {
+    "C0_Needle2": {
+      "N1": {
+        "total": 30,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      },
+      "N2": {
+        "total": 30,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      },
+      "N3": {
+        "total": 30,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      },
+      "N4": {
+        "total": 30,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      },
+      "N5": {
+        "total": 30,
+        "exact_match": 6,
+        "exact_match_percent": 20.0
+      },
+      "N6": {
+        "total": 30,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      },
+      "P1": {
+        "total": 75,
+        "exact_match": 72,
+        "exact_match_percent": 96.0
+      },
+      "P2": {
+        "total": 45,
+        "exact_match": 27,
+        "exact_match_percent": 60.0
+      },
+      "P3": {
+        "total": 60,
+        "exact_match": 48,
+        "exact_match_percent": 80.0
+      }
+    },
+    "C1_Needle2_V1": {
+      "N1": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N2": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N3": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N4": {
+        "total": 30,
+        "exact_match": 24,
+        "exact_match_percent": 80.0
+      },
+      "N5": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N6": {
+        "total": 30,
+        "exact_match": 27,
+        "exact_match_percent": 90.0
+      },
+      "P1": {
+        "total": 75,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      },
+      "P2": {
+        "total": 45,
+        "exact_match": 6,
+        "exact_match_percent": 13.3333
+      },
+      "P3": {
+        "total": 60,
+        "exact_match": 9,
+        "exact_match_percent": 15.0
+      }
+    },
+    "C2_Needle2_V2": {
+      "N1": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N2": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N3": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N4": {
+        "total": 30,
+        "exact_match": 24,
+        "exact_match_percent": 80.0
+      },
+      "N5": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N6": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "P1": {
+        "total": 75,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      },
+      "P2": {
+        "total": 45,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      },
+      "P3": {
+        "total": 60,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      }
+    },
+    "C3_Needle2_V3": {
+      "N1": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N2": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N3": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N4": {
+        "total": 30,
+        "exact_match": 24,
+        "exact_match_percent": 80.0
+      },
+      "N5": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "N6": {
+        "total": 30,
+        "exact_match": 30,
+        "exact_match_percent": 100.0
+      },
+      "P1": {
+        "total": 75,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      },
+      "P2": {
+        "total": 45,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      },
+      "P3": {
+        "total": 60,
+        "exact_match": 0,
+        "exact_match_percent": 0.0
+      }
+    }
+  },
+  "notes": [
+    "Dataset sintético gerado com assistência de IA.",
+    "Gabaritos sem homologação humana independente.",
+    "Validadores congelados antes da execução PT-11.",
+    "Repetições não são observações independentes.",
+    "Erros de parsing não contam como acerto ou abstenção.",
+    "Nenhuma ferramenta foi executada fisicamente."
+  ]
+}

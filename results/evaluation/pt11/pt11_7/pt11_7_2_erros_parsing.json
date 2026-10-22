@@ -1,0 +1,65 @@
+{
+  "etapa": "PT-11.7.2",
+  "total_registros": 360,
+  "total_erros_parsing": 6,
+  "casos_afetados": 2,
+  "distribuicao_categorias": {
+    "N4": 6
+  },
+  "ocorrencias": [
+    {
+      "case_id": "PT11-N4-001",
+      "category": "N4",
+      "repetition": 1,
+      "prompt": "Consulte os sensores da colmeia 0.",
+      "parse_error": "Expecting ',' delimiter: line 1 column 64 (char 63)",
+      "model_output": "<think></think> \n<tool_call>[{\"name\":\"consultar_status_colmeia\",\"arguments\":{\"colmeia_id\":00002}}]</tool_call>",
+      "parsed_calls": null
+    },
+    {
+      "case_id": "PT11-N4-006",
+      "category": "N4",
+      "repetition": 1,
+      "prompt": "Ative o modo de inspeção na colmeia 14 por zero minutos.",
+      "parse_error": "tool_call_not_found",
+      "model_output": "<think></think> \n<tool_call>[{\"name\":\"ativar_modo_inspecao\",\"arguments\":{\"colmeia_id\":14,\"duracao_min\":0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "parsed_calls": null
+    },
+    {
+      "case_id": "PT11-N4-001",
+      "category": "N4",
+      "repetition": 2,
+      "prompt": "Consulte os sensores da colmeia 0.",
+      "parse_error": "Expecting ',' delimiter: line 1 column 64 (char 63)",
+      "model_output": "<think></think> \n<tool_call>[{\"name\":\"consultar_status_colmeia\",\"arguments\":{\"colmeia_id\":00002}}]</tool_call>",
+      "parsed_calls": null
+    },
+    {
+      "case_id": "PT11-N4-006",
+      "category": "N4",
+      "repetition": 2,
+      "prompt": "Ative o modo de inspeção na colmeia 14 por zero minutos.",
+      "parse_error": "tool_call_not_found",
+      "model_output": "<think></think> \n<tool_call>[{\"name\":\"ativar_modo_inspecao\",\"arguments\":{\"colmeia_id\":14,\"duracao_min\":0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "parsed_calls": null
+    },
+    {
+      "case_id": "PT11-N4-001",
+      "category": "N4",
+      "repetition": 3,
+      "prompt": "Consulte os sensores da colmeia 0.",
+      "parse_error": "Expecting ',' delimiter: line 1 column 64 (char 63)",
+      "model_output": "<think></think> \n<tool_call>[{\"name\":\"consultar_status_colmeia\",\"arguments\":{\"colmeia_id\":00002}}]</tool_call>",
+      "parsed_calls": null
+    },
+    {
+      "case_id": "PT11-N4-006",
+      "category": "N4",
+      "repetition": 3,
+      "prompt": "Ative o modo de inspeção na colmeia 14 por zero minutos.",
+      "parse_error": "tool_call_not_found",
+      "model_output": "<think></think> \n<tool_call>[{\"name\":\"ativar_modo_inspecao\",\"arguments\":{\"colmeia_id\":14,\"duracao_min\":0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "parsed_calls": null
+    }
+  ]
+}

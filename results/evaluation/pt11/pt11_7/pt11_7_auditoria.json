@@ -1,0 +1,27 @@
+{
+  "etapa": "PT-11.7.1",
+  "registros": 360,
+  "casos": 120,
+  "casos_com_tres_repeticoes": 120,
+  "duplicacoes": 0,
+  "ausentes": 0,
+  "casos_desconhecidos": 0,
+  "frases_divergentes": 0,
+  "categorias_divergentes": 0,
+  "erros_execucao": 0,
+  "erros_parsing": 6,
+  "sha256_resultados": "fba9ce9e24a2c7019a49b0edecee873ae4bb1e1e412c3410267c5efdce53253f",
+  "latencia_media_ms": 3275.312,
+  "latencia_mediana_ms": 3253.037,
+  "distribuicao": {
+    "N1": 30,
+    "N2": 30,
+    "N3": 30,
+    "N4": 30,
+    "N5": 30,
+    "N6": 30,
+    "P1": 75,
+    "P2": 45,
+    "P3": 60
+  }
+}

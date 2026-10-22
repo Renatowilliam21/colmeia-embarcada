@@ -1,0 +1,18 @@
+{
+  "experimental_protocol": "PT-11.7",
+  "dataset_sha256": "6ee8d7e0facc98b491fb52b39a51ad0debf4b64a7aa331d8a9e1d6f4abf47750",
+  "model_sha256": "b43aabfcaf1a6db6acf488076eab71d823c08697c7af4521fc1d174b60ede5ba",
+  "schema_sha256": "aea810e7afdfde235393b2b9765d8290622f25790efc3d9951a0dd562c6440f2",
+  "binary_sha256": "7318a5784e0bb91487a2016ebfae7bd6aec2a6692ecb1a308a8bb3c2996577a4",
+  "engine_commit_reference": "61cafad7014a5664bb3ffd5f0c457ce5aa6598ae",
+  "repetitions": 3,
+  "max_new": 96,
+  "think": false,
+  "timeout_seconds": 300,
+  "selected_cases": 120,
+  "execution_environment": "Linux host x86-64",
+  "physical_actuation": false,
+  "dataset_origin": "synthetic_ai_assisted",
+  "human_independent_validation": false,
+  "created_at_utc": "2026-10-22T22:26:59.408889+00:00"
+}
