@@ -1,0 +1,44 @@
+{
+  "protocol": "PT-10.12",
+  "description": "Congelamento da avaliação retrospectiva",
+  "created_at_utc": "2026-10-22T22:01:56.600929+00:00",
+  "independent_validation": false,
+  "files": {
+    "src/safety/safety_validator.py": {
+      "sha256": "591afb8d4fd3daf4b2f7bc9dd71b304d25b700f2aa327fda977eb0f4980608f5",
+      "size_bytes": 8753
+    },
+    "src/safety/safety_validator_strict.py": {
+      "sha256": "cac7f16904c7216671399491f90dd1777b763a3c5e8d6eed1d904d3e772f4dc4",
+      "size_bytes": 4558
+    },
+    "src/safety/safety_validator_v3.py": {
+      "sha256": "a70f8cec58fcf548415f1a2c5572e68b95e534f84b0ccebd38f8f2bc70da3c8a",
+      "size_bytes": 6171
+    },
+    "src/evaluation/evaluate_safety_comparison.py": {
+      "sha256": "10627594fd47b22053ead7b7de2770a1669dcbaa38ab5a44aa6b7215cfccdb37",
+      "size_bytes": 14313
+    },
+    "src/evaluation/evaluate_safety_v3.py": {
+      "sha256": "6e1f998f5eaebfc41e87a5229d377a70533bb3ce003b88849e1b91e54778edc6",
+      "size_bytes": 10016
+    },
+    "dataset/frozen/colmeia-needle2-sintetico-v1-homologado.json": {
+      "sha256": "becf137d69b5eb39ad727f10be70b48672d2909d75a1c1563617e53f5a5fda18",
+      "size_bytes": 78732
+    },
+    "results/experiments/needle2_frozen/pt09_7_experimento_principal/raw_results.jsonl": {
+      "sha256": "43416d5752feb15536307654687bacb3c683105e4362d6a493c832a82208997a",
+      "size_bytes": 783314
+    },
+    "results/evaluation/pt10/pt10_11/pt10_11_resumo.json": {
+      "sha256": "e24984fbd9677722d506db816a0092c990ca61953c27eb2f3ec849c473e45665",
+      "size_bytes": 2450
+    },
+    "results/evaluation/pt10/pt10_11/pt10_11_detalhado.csv": {
+      "sha256": "5f46ebc3194013c4a0b4ff8930fd164af1d6ae87105f84775265083093bc612d",
+      "size_bytes": 557958
+    }
+  }
+}

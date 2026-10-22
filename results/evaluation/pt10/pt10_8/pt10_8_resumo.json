@@ -1,0 +1,25 @@
+{
+  "analysis_type": "retrospective_development",
+  "lost_correct_v1": 102,
+  "lost_correct_v2": 120,
+  "v1_preserved_v2_lost": 18,
+  "v1_preserved_v2_lost_unique_cases": 6,
+  "lost_by_family_v1": {
+    "status_coloquial": 51,
+    "inspecao_coloquial": 45,
+    "sensores_direto": 6
+  },
+  "lost_by_family_v2": {
+    "status_coloquial": 51,
+    "inspecao_coloquial": 45,
+    "status_direto": 15,
+    "sensores_direto": 6,
+    "alertas_direto": 3
+  },
+  "lost_by_rule_v1": {
+    "R12": 102
+  },
+  "lost_by_rule_v2": {
+    "R12": 120
+  }
+}

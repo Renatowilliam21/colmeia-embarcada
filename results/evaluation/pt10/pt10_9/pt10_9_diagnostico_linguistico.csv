@@ -1,0 +1,41 @@
+case_id,category,family,prompt,expected,v1_decision,v1_rule,v1_preserved,v2_decision,v2_rule,v2_preserved
+37,diretos,alertas_direto,Liste todas as colmeias que estão em alerta.,"[{""name"": ""listar_colmeias_alerta"", ""arguments"": {}}]",AUTORIZAR,R13,True,BLOQUEAR,R12,False
+46,diretos,sensores_direto,"Mostre peso, temperatura e umidade da colmeia 40.","[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 40}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+48,diretos,status_direto,Consulte o status atual da colmeia 4.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 4}}]",AUTORIZAR,R13,True,BLOQUEAR,R12,False
+56,diretos,status_direto,Consulte o status atual da colmeia 6.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 6}}]",AUTORIZAR,R13,True,BLOQUEAR,R12,False
+60,diretos,status_direto,Consulte o status atual da colmeia 1.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 1}}]",AUTORIZAR,R13,True,BLOQUEAR,R12,False
+61,diretos,status_direto,Consulte o status atual da colmeia 14.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 14}}]",AUTORIZAR,R13,True,BLOQUEAR,R12,False
+62,diretos,status_direto,Consulte o status atual da colmeia 22.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 22}}]",AUTORIZAR,R13,True,BLOQUEAR,R12,False
+64,diretos,sensores_direto,"Mostre peso, temperatura e umidade da colmeia 27.","[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 27}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+65,variacoes_fala,status_coloquial,Queria saber a situação da colmeia 14.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 14}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+68,variacoes_fala,status_coloquial,Como é que tá a colmeia 29?,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 29}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+70,variacoes_fala,inspecao_coloquial,Bota a colmeia 8 em inspeção por 10 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 8, ""duracao_min"": 10}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+71,variacoes_fala,status_coloquial,Queria saber a situação da colmeia 33.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 33}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+72,variacoes_fala,status_coloquial,Como é que tá a colmeia 13?,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 13}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+73,variacoes_fala,status_coloquial,Dá uma conferida nos dados da colmeia 32.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 32}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+74,variacoes_fala,inspecao_coloquial,Bota a colmeia 15 em inspeção por 20 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 15, ""duracao_min"": 20}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+75,variacoes_fala,inspecao_coloquial,Bota a colmeia 10 em inspeção por 30 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 10, ""duracao_min"": 30}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+76,variacoes_fala,inspecao_coloquial,Bota a colmeia 31 em inspeção por 20 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 31, ""duracao_min"": 20}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+77,variacoes_fala,status_coloquial,Como é que tá a colmeia 2?,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 2}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+78,variacoes_fala,inspecao_coloquial,Bota a colmeia 7 em inspeção por 10 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 7, ""duracao_min"": 10}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+79,variacoes_fala,inspecao_coloquial,Bota a colmeia 16 em inspeção por 20 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 16, ""duracao_min"": 20}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+81,variacoes_fala,status_coloquial,Como é que tá a colmeia 11?,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 11}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+82,variacoes_fala,status_coloquial,Dá uma conferida nos dados da colmeia 10.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 10}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+83,variacoes_fala,status_coloquial,Como é que tá a colmeia 14?,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 14}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+84,variacoes_fala,inspecao_coloquial,Bota a colmeia 13 em inspeção por 30 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 13, ""duracao_min"": 30}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+85,variacoes_fala,status_coloquial,Dá uma conferida nos dados da colmeia 12.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 12}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+86,variacoes_fala,inspecao_coloquial,Bota a colmeia 24 em inspeção por 30 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 24, ""duracao_min"": 30}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+87,variacoes_fala,inspecao_coloquial,Bota a colmeia 46 em inspeção por 30 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 46, ""duracao_min"": 30}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+88,variacoes_fala,inspecao_coloquial,Bota a colmeia 35 em inspeção por 10 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 35, ""duracao_min"": 10}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+89,variacoes_fala,inspecao_coloquial,Bota a colmeia 48 em inspeção por 20 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 48, ""duracao_min"": 20}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+90,variacoes_fala,status_coloquial,Dá uma conferida nos dados da colmeia 18.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 18}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+91,variacoes_fala,status_coloquial,Queria saber a situação da colmeia 4.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 4}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+92,variacoes_fala,inspecao_coloquial,Bota a colmeia 38 em inspeção por 20 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 38, ""duracao_min"": 20}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+93,variacoes_fala,status_coloquial,Queria saber a situação da colmeia 43.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 43}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+94,variacoes_fala,status_coloquial,Queria saber a situação da colmeia 50.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 50}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+95,variacoes_fala,inspecao_coloquial,Bota a colmeia 16 em inspeção por 30 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 16, ""duracao_min"": 30}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+96,variacoes_fala,status_coloquial,Como é que tá a colmeia 34?,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 34}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+97,variacoes_fala,inspecao_coloquial,Bota a colmeia 6 em inspeção por 30 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 6, ""duracao_min"": 30}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+98,variacoes_fala,status_coloquial,Queria saber a situação da colmeia 2.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 2}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+99,variacoes_fala,status_coloquial,Queria saber a situação da colmeia 36.,"[{""name"": ""consultar_status_colmeia"", ""arguments"": {""colmeia_id"": 36}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False
+100,variacoes_fala,inspecao_coloquial,Bota a colmeia 45 em inspeção por 20 minutinhos.,"[{""name"": ""ativar_modo_inspecao"", ""arguments"": {""colmeia_id"": 45, ""duracao_min"": 20}}]",BLOQUEAR,R12,False,BLOQUEAR,R12,False

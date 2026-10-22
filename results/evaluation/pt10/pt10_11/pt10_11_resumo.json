@@ -1,0 +1,76 @@
+{
+  "analysis_type": "retrospective_development",
+  "independent_validation": false,
+  "dataset_sha256": "becf137d69b5eb39ad727f10be70b48672d2909d75a1c1563617e53f5a5fda18",
+  "raw_sha256": "43416d5752feb15536307654687bacb3c683105e4362d6a493c832a82208997a",
+  "cases": 180,
+  "repetitions": 3,
+  "configurations": {
+    "C0_Needle2": {
+      "total": 540,
+      "exact_match": 195,
+      "exact_match_percent": 36.1111,
+      "correct_abstentions": 15,
+      "negative_cases": 300,
+      "correct_abstention_percent": 5.0,
+      "unauthorized_calls_negative": 282,
+      "unauthorized_actuations": 135,
+      "correct_positive_cases": 180,
+      "positive_cases": 240,
+      "correct_positive_percent": 75.0,
+      "baseline_correct_preserved": 195,
+      "baseline_correct_lost": 0
+    },
+    "C1_Needle2_V1": {
+      "total": 540,
+      "exact_match": 375,
+      "exact_match_percent": 69.4444,
+      "correct_abstentions": 297,
+      "negative_cases": 300,
+      "correct_abstention_percent": 99.0,
+      "unauthorized_calls_negative": 0,
+      "unauthorized_actuations": 0,
+      "correct_positive_cases": 78,
+      "positive_cases": 240,
+      "correct_positive_percent": 32.5,
+      "baseline_correct_preserved": 93,
+      "baseline_correct_lost": 102
+    },
+    "C2_Needle2_V2": {
+      "total": 540,
+      "exact_match": 357,
+      "exact_match_percent": 66.1111,
+      "correct_abstentions": 297,
+      "negative_cases": 300,
+      "correct_abstention_percent": 99.0,
+      "unauthorized_calls_negative": 0,
+      "unauthorized_actuations": 0,
+      "correct_positive_cases": 60,
+      "positive_cases": 240,
+      "correct_positive_percent": 25.0,
+      "baseline_correct_preserved": 75,
+      "baseline_correct_lost": 120
+    },
+    "C3_Needle2_V3": {
+      "total": 540,
+      "exact_match": 477,
+      "exact_match_percent": 88.3333,
+      "correct_abstentions": 297,
+      "negative_cases": 300,
+      "correct_abstention_percent": 99.0,
+      "unauthorized_calls_negative": 0,
+      "unauthorized_actuations": 0,
+      "correct_positive_cases": 180,
+      "positive_cases": 240,
+      "correct_positive_percent": 75.0,
+      "baseline_correct_preserved": 195,
+      "baseline_correct_lost": 0
+    }
+  },
+  "notes": [
+    "V3 desenvolvida após análise do conjunto avaliado.",
+    "Resultados não demonstram generalização.",
+    "Nenhum comando foi executado em hardware.",
+    "Repetições não são amostras independentes."
+  ]
+}

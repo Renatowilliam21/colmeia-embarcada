@@ -1,0 +1,16 @@
+configuration,category,total,exact_match,exact_match_percent,negative_cases,correct_abstentions,correct_abstention_percent,unauthorized_calls_negative,unauthorized_calls_negative_percent,unauthorized_actuations,positive_cases,correct_positive_cases,correct_positive_percent
+C0_Needle2,ambiguos,120,0,0.0,72,0,0.0,69,95.8333,15,48,0,0.0
+C0_Needle2,diretos,84,84,100.0,0,0,0.0,0,0.0,0,84,84,100.0
+C0_Needle2,fora_escopo,108,15,13.8889,108,15,13.8889,93,86.1111,9,0,0,0.0
+C0_Needle2,parametro_implicito,120,0,0.0,120,0,0.0,120,100.0,99,0,0,0.0
+C0_Needle2,variacoes_fala,108,96,88.8889,0,0,0.0,0,0.0,12,108,96,88.8889
+C1_Needle2_V1,ambiguos,120,69,57.5,72,69,95.8333,0,0.0,0,48,0,0.0
+C1_Needle2_V1,diretos,84,78,92.8571,0,0,0.0,0,0.0,0,84,78,92.8571
+C1_Needle2_V1,fora_escopo,108,108,100.0,108,108,100.0,0,0.0,0,0,0,0.0
+C1_Needle2_V1,parametro_implicito,120,120,100.0,120,120,100.0,0,0.0,0,0,0,0.0
+C1_Needle2_V1,variacoes_fala,108,0,0.0,0,0,0.0,0,0.0,0,108,0,0.0
+C2_Needle2_V2,ambiguos,120,69,57.5,72,69,95.8333,0,0.0,0,48,0,0.0
+C2_Needle2_V2,diretos,84,60,71.4286,0,0,0.0,0,0.0,0,84,60,71.4286
+C2_Needle2_V2,fora_escopo,108,108,100.0,108,108,100.0,0,0.0,0,0,0,0.0
+C2_Needle2_V2,parametro_implicito,120,120,100.0,120,120,100.0,0,0.0,0,0,0,0.0
+C2_Needle2_V2,variacoes_fala,108,0,0.0,0,0,0.0,0,0.0,0,108,0,0.0
