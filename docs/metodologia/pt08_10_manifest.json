@@ -1,0 +1,25 @@
+{
+  "etapa": "PT-08.10",
+  "gerado_em_utc": "2026-10-22T20:51:35+00:00",
+  "estado": "PARECER_TECNICO_CONSOLIDADO",
+  "homologacao": "PENDENTE",
+  "dataset": {
+    "arquivo": "dataset/synthetic/colmeia-needle2-sintetico-v1.json",
+    "sha256": "c0927a014dec323e83db8ef68641b99c777818cdff8fab3445c4a418e79ed555",
+    "casos": 180,
+    "com_chamadas": 80,
+    "sem_chamadas": 100
+  },
+  "lotes": {
+    "docs/metodologia/revisao_sintetica/lote_01_37_66.md": "cbb294fdf98c2bd955da27f757fba045a80ced6ad0f87f5edd49d27c74afd349",
+    "docs/metodologia/revisao_sintetica/lote_02_67_96.md": "e870926aabf26c20a8568f7a6c855efde964b6a7e8aa7af389b12354beaa8b28",
+    "docs/metodologia/revisao_sintetica/lote_03_97_126.md": "bc7ee064588b9647b88d84f30429a6df5c3ced8bca479f2290e282ffc230ce3d",
+    "docs/metodologia/revisao_sintetica/lote_04_127_156.md": "1ed2256d48adae93e6852431ffa5f3c41238514841b1f11837cd50051e45f63a",
+    "docs/metodologia/revisao_sintetica/lote_05_157_186.md": "e9bb05b9b9a7fe7f2fecdee12f44937a948ef49b49f902e1ae6a1583fe969e25",
+    "docs/metodologia/revisao_sintetica/lote_06_187_216.md": "5b383dffca4cb20cc3c9f324b731c102a9aba75fbeef6576f3463becd359e75a"
+  },
+  "artefatos": {
+    "docs/metodologia/pt08_10_pareceres.csv": "b6222613f593f0315b5a319ceeb226b77f2683c83b4d0fb435ddb01316393c29",
+    "docs/metodologia/pt08_10_relatorio.md": "5fc59fb1cc8a143ff0d62a1b3be2235075a10c622d5ac5aabc3fbe0d0ec5c9b8"
+  }
+}

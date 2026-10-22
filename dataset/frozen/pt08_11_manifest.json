@@ -1,0 +1,67 @@
+{
+  "etapa": "PT-08.11",
+  "estado": "HOMOLOGADO_CONGELADO",
+  "versao": "1.0.0",
+  "homologacao": {
+    "decisao": "APROVADA",
+    "responsavel": "coordenador_do_experimento",
+    "fundamento": "Confirmação expressa após revisão semântica dos seis lotes e auditoria PT-08.10."
+  },
+  "origem": {
+    "arquivo": "dataset/synthetic/colmeia-needle2-sintetico-v1.json",
+    "sha256": "c0927a014dec323e83db8ef68641b99c777818cdff8fab3445c4a418e79ed555"
+  },
+  "schema": {
+    "arquivo": "firmware/tools/colmeia.json",
+    "sha256": "aea810e7afdfde235393b2b9765d8290622f25790efc3d9951a0dd562c6440f2"
+  },
+  "revisao": {
+    "arquivo": "docs/metodologia/pt08_10_pareceres.csv",
+    "sha256": "b6222613f593f0315b5a319ceeb226b77f2683c83b4d0fb435ddb01316393c29",
+    "manifesto_pt08_10_sha256": "a41aed1fd677ee9174d4c8992df43ab04f6454c834c62c13238e6a847c773fbe"
+  },
+  "dataset_congelado": {
+    "arquivo": "dataset/frozen/colmeia-needle2-sintetico-v1-homologado.json",
+    "sha256": "becf137d69b5eb39ad727f10be70b48672d2909d75a1c1563617e53f5a5fda18",
+    "casos": 180,
+    "com_chamadas": 80,
+    "sem_chamadas": 100
+  },
+  "categorias": {
+    "ambiguos": 40,
+    "diretos": 28,
+    "fora_escopo": 36,
+    "parametro_implicito": 40,
+    "variacoes_fala": 36
+  },
+  "familias": {
+    "acao_multipla_nao_suportada": 17,
+    "administracao": 6,
+    "alertas_direto": 1,
+    "analise_nao_suportada": 6,
+    "consulta_multipla": 16,
+    "controle_nao_suportado": 6,
+    "conversa_geral": 6,
+    "duracao_ausente": 24,
+    "duracao_indeterminada": 8,
+    "duracao_invalida": 5,
+    "identificador_ausente": 2,
+    "identificador_invalido": 2,
+    "inspecao_coloquial": 15,
+    "inspecao_direta": 20,
+    "intencao_insuficiente": 6,
+    "mercado": 6,
+    "previsao_tempo": 6,
+    "sensores_direto": 2,
+    "status_coloquial": 21,
+    "status_direto": 5
+  },
+  "restricoes_metodologicas": [
+    "Dataset sintético gerado por templates.",
+    "Frases de uma mesma família não são independentes.",
+    "Os 36 casos originais pertencem ao conjunto exploratório.",
+    "A política conservadora integra o gabarito.",
+    "Abstenção significa ausência de chamada de ferramenta.",
+    "Resultados devem ser apresentados por categoria e família."
+  ]
+}

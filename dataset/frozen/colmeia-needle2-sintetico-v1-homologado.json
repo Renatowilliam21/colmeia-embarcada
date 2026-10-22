@@ -1,0 +1,2505 @@
+{
+  "identificacao": "colmeia-needle2-sintetico-v1",
+  "versao": "1.0.0",
+  "estado": "homologado_congelado",
+  "total_casos": 180,
+  "politica": {
+    "modo": "conservador",
+    "consultas_multiplas": "permitidas",
+    "ativacoes_multiplas": "proibidas",
+    "parametros_ausentes": "nao_inferir",
+    "parametros_invalidos": "nao_corrigir",
+    "fora_escopo": "nenhuma_chamada"
+  },
+  "casos": [
+    {
+      "categoria": "diretos",
+      "frase": "Liste todas as colmeias que estão em alerta.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "listar_colmeias_alerta",
+          "arguments": {}
+        }
+      ],
+      "familia": "alertas_direto",
+      "justificativa": "Consulta de alertas atuais.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 37
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 42 por 15 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 42,
+            "duracao_min": 15
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 38
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 50 por 60 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 50,
+            "duracao_min": 60
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 39
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 5 por 25 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 5,
+            "duracao_min": 25
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 40
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 22 por 5 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 22,
+            "duracao_min": 5
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 41
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 49 por 40 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 49,
+            "duracao_min": 40
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 42
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 36 por 25 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 36,
+            "duracao_min": 25
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 43
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 49 por 60 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 49,
+            "duracao_min": 60
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 44
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 16 por 60 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 16,
+            "duracao_min": 60
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 45
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Mostre peso, temperatura e umidade da colmeia 40.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 40
+          }
+        }
+      ],
+      "familia": "sensores_direto",
+      "justificativa": "Consulta de variáveis fornecidas pela ferramenta de status.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 46
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 20 por 5 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 20,
+            "duracao_min": 5
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 47
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Consulte o status atual da colmeia 4.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 4
+          }
+        }
+      ],
+      "familia": "status_direto",
+      "justificativa": "Consulta individual com identificador explícito.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 48
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 40 por 5 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 40,
+            "duracao_min": 5
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 49
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 24 por 60 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 24,
+            "duracao_min": 60
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 50
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 15 por 60 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 15,
+            "duracao_min": 60
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 51
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 26 por 60 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 26,
+            "duracao_min": 60
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 52
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 34 por 60 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 34,
+            "duracao_min": 60
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 53
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 17 por 15 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 17,
+            "duracao_min": 15
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 54
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 3 por 40 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 3,
+            "duracao_min": 40
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 55
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Consulte o status atual da colmeia 6.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 6
+          }
+        }
+      ],
+      "familia": "status_direto",
+      "justificativa": "Consulta individual com identificador explícito.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 56
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 31 por 15 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 31,
+            "duracao_min": 15
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 57
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 42 por 40 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 42,
+            "duracao_min": 40
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 58
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 29 por 60 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 29,
+            "duracao_min": 60
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 59
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Consulte o status atual da colmeia 1.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 1
+          }
+        }
+      ],
+      "familia": "status_direto",
+      "justificativa": "Consulta individual com identificador explícito.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 60
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Consulte o status atual da colmeia 14.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 14
+          }
+        }
+      ],
+      "familia": "status_direto",
+      "justificativa": "Consulta individual com identificador explícito.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 61
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Consulte o status atual da colmeia 22.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 22
+          }
+        }
+      ],
+      "familia": "status_direto",
+      "justificativa": "Consulta individual com identificador explícito.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 62
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Ative o modo inspeção da colmeia 38 por 60 minutos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 38,
+            "duracao_min": 60
+          }
+        }
+      ],
+      "familia": "inspecao_direta",
+      "justificativa": "Identificador e duração válidos explicitamente informados.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 63
+    },
+    {
+      "categoria": "diretos",
+      "frase": "Mostre peso, temperatura e umidade da colmeia 27.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 27
+          }
+        }
+      ],
+      "familia": "sensores_direto",
+      "justificativa": "Consulta de variáveis fornecidas pela ferramenta de status.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 64
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Queria saber a situação da colmeia 14.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 14
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 65
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Me diz aí como anda a colmeia 46.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 46
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 66
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Me diz aí como anda a colmeia 7.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 7
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 67
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Como é que tá a colmeia 29?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 29
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 68
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Me diz aí como anda a colmeia 42.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 42
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 69
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 8 em inspeção por 10 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 8,
+            "duracao_min": 10
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 70
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Queria saber a situação da colmeia 33.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 33
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 71
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Como é que tá a colmeia 13?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 13
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 72
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Dá uma conferida nos dados da colmeia 32.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 32
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 73
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 15 em inspeção por 20 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 15,
+            "duracao_min": 20
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 74
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 10 em inspeção por 30 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 10,
+            "duracao_min": 30
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 75
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 31 em inspeção por 20 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 31,
+            "duracao_min": 20
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 76
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Como é que tá a colmeia 2?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 2
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 77
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 7 em inspeção por 10 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 7,
+            "duracao_min": 10
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 78
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 16 em inspeção por 20 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 16,
+            "duracao_min": 20
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 79
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Me diz aí como anda a colmeia 48.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 48
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 80
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Como é que tá a colmeia 11?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 11
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 81
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Dá uma conferida nos dados da colmeia 10.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 10
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 82
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Como é que tá a colmeia 14?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 14
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 83
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 13 em inspeção por 30 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 13,
+            "duracao_min": 30
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 84
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Dá uma conferida nos dados da colmeia 12.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 12
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 85
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 24 em inspeção por 30 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 24,
+            "duracao_min": 30
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 86
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 46 em inspeção por 30 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 46,
+            "duracao_min": 30
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 87
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 35 em inspeção por 10 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 35,
+            "duracao_min": 10
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 88
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 48 em inspeção por 20 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 48,
+            "duracao_min": 20
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 89
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Dá uma conferida nos dados da colmeia 18.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 18
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 90
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Queria saber a situação da colmeia 4.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 4
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 91
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 38 em inspeção por 20 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 38,
+            "duracao_min": 20
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 92
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Queria saber a situação da colmeia 43.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 43
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 93
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Queria saber a situação da colmeia 50.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 50
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 94
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 16 em inspeção por 30 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 16,
+            "duracao_min": 30
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 95
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Como é que tá a colmeia 34?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 34
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 96
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 6 em inspeção por 30 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 6,
+            "duracao_min": 30
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 97
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Queria saber a situação da colmeia 2.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 2
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 98
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Queria saber a situação da colmeia 36.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 36
+          }
+        }
+      ],
+      "familia": "status_coloquial",
+      "justificativa": "Paráfrase coloquial de consulta individual.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 99
+    },
+    {
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 45 em inspeção por 20 minutinhos.",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "ativar_modo_inspecao",
+          "arguments": {
+            "colmeia_id": 45,
+            "duracao_min": 20
+          }
+        }
+      ],
+      "familia": "inspecao_coloquial",
+      "justificativa": "Pedido coloquial com duração determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 100
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Coloque a colmeia 26 em modo inspeção.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Duração obrigatória não informada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 101
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Coloque a colmeia 19 em modo inspeção.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Duração obrigatória não informada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 102
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Preciso verificar a colmeia 11 rapidinho.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "intencao_insuficiente",
+      "justificativa": "Não há ação executável suficientemente determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 103
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 9; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 104
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Como estão os sensores?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "identificador_ausente",
+      "justificativa": "Não é possível identificar a colmeia solicitada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 105
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Preciso verificar a colmeia 45 rapidinho.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "intencao_insuficiente",
+      "justificativa": "Não há ação executável suficientemente determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 106
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Ative a inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "identificador_ausente",
+      "justificativa": "Identificador obrigatório ausente.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 107
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Ative inspeção na colmeia 35 por alguns minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_indeterminada",
+      "justificativa": "Duração não quantificada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 108
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Ative inspeção na colmeia 23 por alguns minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_indeterminada",
+      "justificativa": "Duração não quantificada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 109
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Preciso verificar a colmeia 22 rapidinho.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "intencao_insuficiente",
+      "justificativa": "Não há ação executável suficientemente determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 110
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 38; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 111
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 49; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 112
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Preciso verificar a colmeia 10 rapidinho.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "intencao_insuficiente",
+      "justificativa": "Não há ação executável suficientemente determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 113
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 47; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 114
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 39; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 115
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 11; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 116
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Coloque a colmeia 11 em modo inspeção.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Duração obrigatória não informada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 117
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Ative inspeção na colmeia 8 por alguns minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_indeterminada",
+      "justificativa": "Duração não quantificada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 118
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 46; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 119
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Preciso verificar a colmeia 35 rapidinho.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "intencao_insuficiente",
+      "justificativa": "Não há ação executável suficientemente determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 120
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Coloque a colmeia 12 em modo inspeção.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Duração obrigatória não informada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 121
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Coloque a colmeia 34 em modo inspeção.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Duração obrigatória não informada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 122
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 34; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 123
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Preciso verificar a colmeia 26 rapidinho.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "intencao_insuficiente",
+      "justificativa": "Não há ação executável suficientemente determinada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 124
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 25; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 125
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Coloque a colmeia 17 em modo inspeção.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Duração obrigatória não informada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 126
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 42; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 127
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 20; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 128
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 14; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 129
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Ative inspeção na colmeia 10 por alguns minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_indeterminada",
+      "justificativa": "Duração não quantificada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 130
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Ative inspeção na colmeia 1 por alguns minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_indeterminada",
+      "justificativa": "Duração não quantificada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 131
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Ative inspeção na colmeia 9 por alguns minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_indeterminada",
+      "justificativa": "Duração não quantificada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 132
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Ative inspeção na colmeia 40 por alguns minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_indeterminada",
+      "justificativa": "Duração não quantificada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 133
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 4; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 134
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 40; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 135
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 27; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 136
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Vou abrir a colmeia 1; pause os alertas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Pedido de ação sem duração.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 137
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Coloque a colmeia 37 em modo inspeção.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Duração obrigatória não informada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 138
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Coloque a colmeia 24 em modo inspeção.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_ausente",
+      "justificativa": "Duração obrigatória não informada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 139
+    },
+    {
+      "categoria": "parametro_implicito",
+      "frase": "Ative inspeção na colmeia 18 por alguns minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_indeterminada",
+      "justificativa": "Duração não quantificada.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 140
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 20 e 23 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 141
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 39 e 41 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 142
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 15 e 18?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 15
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 18
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 143
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 39 e 42?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 39
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 42
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 144
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 25 e 28?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 25
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 28
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 145
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 6 e 9?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 6
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 9
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 146
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 11 e 15 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 147
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 27 e 29 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 148
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Ative inspeção na colmeia 33 por 3 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_invalida",
+      "justificativa": "Duração abaixo do mínimo de 5 minutos.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 149
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Ative inspeção na colmeia 2 por 3 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_invalida",
+      "justificativa": "Duração abaixo do mínimo de 5 minutos.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 150
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 3 e 7 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 151
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 35 e 38?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 35
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 38
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 152
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Ative inspeção na colmeia 36 por 3 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_invalida",
+      "justificativa": "Duração abaixo do mínimo de 5 minutos.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 153
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 24 e 27 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 154
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 7 e 10 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 155
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 1 e 4?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 1
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 4
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 156
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Ative inspeção na colmeia 19 por 90 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_invalida",
+      "justificativa": "Duração acima do máximo de 60 minutos.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 157
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 14 e 17?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 14
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 17
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 158
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 21 e 24 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 159
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Mostre o status da colmeia 0.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "identificador_invalido",
+      "justificativa": "Identificador fora do intervalo permitido.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 160
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 27 e 30?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 27
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 30
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 161
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 17 e 21?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 17
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 21
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 162
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 17 e 21 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 163
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 39 e 40 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 164
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 34 e 35 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 165
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 17 e 20 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 166
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 5 e 7 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 167
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Mostre o status da colmeia 52.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "identificador_invalido",
+      "justificativa": "Identificador fora do intervalo permitido.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 168
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 44 e 46?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 44
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 46
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 169
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Ative inspeção na colmeia 3 por 90 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "duracao_invalida",
+      "justificativa": "Duração acima do máximo de 60 minutos.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 170
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 26 e 29?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 26
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 29
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 171
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 33 e 35 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 172
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 8 e 11?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 8
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 11
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 173
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 8 e 10?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 8
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 10
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 174
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 17 e 19 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 175
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 1 e 2 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 176
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 39 e 40?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 39
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 40
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 177
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 18 e 20?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 18
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 20
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 178
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Como estão as colmeias 37 e 40?",
+      "chamadas_esperadas_revisadas": [
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 37
+          }
+        },
+        {
+          "name": "consultar_status_colmeia",
+          "arguments": {
+            "colmeia_id": 40
+          }
+        }
+      ],
+      "familia": "consulta_multipla",
+      "justificativa": "Duas consultas individuais identificadas.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 179
+    },
+    {
+      "categoria": "ambiguos",
+      "frase": "Coloque as colmeias 1 e 3 em inspeção por 20 minutos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "acao_multipla_nao_suportada",
+      "justificativa": "Política conservadora: não executar ação coletiva.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 180
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Formate a memória do dispositivo.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "controle_nao_suportado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 181
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Gere uma nota fiscal.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "administracao",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 182
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Desligue todos os sensores.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "controle_nao_suportado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 183
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Quanto custa uma caixa de madeira?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "mercado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 184
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Apague todos os registros antigos.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "administracao",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 185
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Envie uma mensagem para o apicultor.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "administracao",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 186
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Diagnostique a doença das abelhas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "analise_nao_suportada",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 187
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Vai fazer muito vento esta noite?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "previsao_tempo",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 188
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Bom dia, tudo bem?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "conversa_geral",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 189
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Preveja a próxima enxameação.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "analise_nao_suportada",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 190
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Qual a cotação do dólar?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "mercado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 191
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Exporte todos os dados em PDF.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "administracao",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 192
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Explique a história da apicultura.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "conversa_geral",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 193
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Quanto custa um quilo de cera de abelha?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "mercado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 194
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Qual é o valor do própolis no mercado?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "mercado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 195
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Onde encontro o mel mais barato?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "mercado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 196
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Reinicie o ESP32.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "controle_nao_suportado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 197
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Conte uma piada sobre abelhas.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "conversa_geral",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 198
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Qual é a capital do Brasil?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "conversa_geral",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 199
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Envie o relatório por e-mail.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "administracao",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 200
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Compare os dados de todas as colmeias no último ano.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "analise_nao_suportada",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 201
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Desative permanentemente os alarmes.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "controle_nao_suportado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 202
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Cadastre um novo funcionário.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "administracao",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 203
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Ligue o ventilador do laboratório.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "controle_nao_suportado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 204
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Obrigado pela ajuda.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "conversa_geral",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 205
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Como fica a previsão do tempo para o próximo mês?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "previsao_tempo",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 206
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Faça um gráfico mensal da produtividade.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "analise_nao_suportada",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 207
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Vai chover amanhã?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "previsao_tempo",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 208
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Estime o lucro da próxima safra.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "analise_nao_suportada",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 209
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Qual é o preço do mel hoje?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "mercado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 210
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Vai ter tempestade no fim de semana?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "previsao_tempo",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 211
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Atualize o firmware pela internet.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "controle_nao_suportado",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 212
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Qual será a temperatura da cidade amanhã?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "previsao_tempo",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 213
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Quem inventou o computador?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "conversa_geral",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 214
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Qual a previsão de chuva para sábado?",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "previsao_tempo",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 215
+    },
+    {
+      "categoria": "fora_escopo",
+      "frase": "Calcule a produção anual de mel.",
+      "chamadas_esperadas_revisadas": [],
+      "familia": "analise_nao_suportada",
+      "justificativa": "Nenhuma ferramenta disponível atende à solicitação.",
+      "origem": "sintetico_template",
+      "status_validacao": "homologado",
+      "id": 216
+    }
+  ]
+}
