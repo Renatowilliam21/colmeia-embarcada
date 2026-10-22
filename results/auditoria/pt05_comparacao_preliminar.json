@@ -1,0 +1,824 @@
+[
+  {
+    "indice": 1,
+    "case_id": 1,
+    "caso_original": {
+      "id": 1,
+      "categoria": "diretos",
+      "frase": "Qual o status da colmeia 3?",
+      "ferramenta_esperada": "consultar_status_colmeia",
+      "argumentos_esperados": {
+        "colmeia_id": 3
+      },
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 3
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 2,
+    "case_id": 2,
+    "caso_original": {
+      "id": 2,
+      "categoria": "diretos",
+      "frase": "Colmeia 7: peso e temperatura atual.",
+      "ferramenta_esperada": "consultar_status_colmeia",
+      "argumentos_esperados": {
+        "colmeia_id": 7
+      },
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 7
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 3,
+    "case_id": 3,
+    "caso_original": {
+      "id": 3,
+      "categoria": "diretos",
+      "frase": "Tem alguma colmeia em alerta agora?",
+      "ferramenta_esperada": "listar_colmeias_alerta",
+      "argumentos_esperados": {},
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 4,
+    "case_id": 4,
+    "caso_original": {
+      "id": 4,
+      "categoria": "diretos",
+      "frase": "Liste as colmeias com problema.",
+      "ferramenta_esperada": "listar_colmeias_alerta",
+      "argumentos_esperados": {},
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 5,
+    "case_id": 5,
+    "caso_original": {
+      "id": 5,
+      "categoria": "diretos",
+      "frase": "Ativa o modo inspecao na colmeia 5 por 20 minutos.",
+      "ferramenta_esperada": "ativar_modo_inspecao",
+      "argumentos_esperados": {
+        "colmeia_id": 5,
+        "duracao_min": 20
+      },
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 5,
+          "duracao_min": 20
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 6,
+    "case_id": 6,
+    "caso_original": {
+      "id": 6,
+      "categoria": "diretos",
+      "frase": "Preciso inspecionar a colmeia 12, pausa os alertas por 30 minutos.",
+      "ferramenta_esperada": "ativar_modo_inspecao",
+      "argumentos_esperados": {
+        "colmeia_id": 12,
+        "duracao_min": 30
+      },
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 12,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 7,
+    "case_id": 7,
+    "caso_original": {
+      "id": 7,
+      "categoria": "diretos",
+      "frase": "Como esta a colmeia 1?",
+      "ferramenta_esperada": "consultar_status_colmeia",
+      "argumentos_esperados": {
+        "colmeia_id": 1
+      },
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 8,
+    "case_id": 8,
+    "caso_original": {
+      "id": 8,
+      "categoria": "diretos",
+      "frase": "Mostra os dados da colmeia 9.",
+      "ferramenta_esperada": "consultar_status_colmeia",
+      "argumentos_esperados": {
+        "colmeia_id": 9
+      },
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 9
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 9,
+    "case_id": 9,
+    "caso_original": {
+      "id": 9,
+      "categoria": "variacoes_fala",
+      "frase": "E ai, a colmeia dois ta como?",
+      "ferramenta_esperada": "consultar_status_colmeia",
+      "argumentos_esperados": {
+        "colmeia_id": 2
+      },
+      "observacao": "numero por extenso"
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 10,
+    "case_id": 10,
+    "caso_original": {
+      "id": 10,
+      "categoria": "variacoes_fala",
+      "frase": "Da uma olhada na colmeia quatro pra mim.",
+      "ferramenta_esperada": "consultar_status_colmeia",
+      "argumentos_esperados": {
+        "colmeia_id": 4
+      },
+      "observacao": "numero por extenso"
+    },
+    "predicao": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 4,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 11,
+    "case_id": 11,
+    "caso_original": {
+      "id": 11,
+      "categoria": "variacoes_fala",
+      "frase": "Alguma colmeia pedindo atencao?",
+      "ferramenta_esperada": "listar_colmeias_alerta",
+      "argumentos_esperados": {},
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 12,
+    "case_id": 12,
+    "caso_original": {
+      "id": 12,
+      "categoria": "variacoes_fala",
+      "frase": "Quais colmeias estao fora do normal?",
+      "ferramenta_esperada": "listar_colmeias_alerta",
+      "argumentos_esperados": {},
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 13,
+    "case_id": 13,
+    "caso_original": {
+      "id": 13,
+      "categoria": "variacoes_fala",
+      "frase": "Vou abrir a colmeia 6, desliga o alerta por meia hora.",
+      "ferramenta_esperada": "ativar_modo_inspecao",
+      "argumentos_esperados": {
+        "colmeia_id": 6,
+        "duracao_min": 30
+      },
+      "observacao": "conversao 'meia hora' -> 30 min, analoga ao caso 'meio segundo'->500ms do repositorio de referencia"
+    },
+    "predicao": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 6,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 14,
+    "case_id": 14,
+    "caso_original": {
+      "id": 14,
+      "categoria": "variacoes_fala",
+      "frase": "Bota a colmeia 15 em modo inspecao, uns 10 minutinhos.",
+      "ferramenta_esperada": "ativar_modo_inspecao",
+      "argumentos_esperados": {
+        "colmeia_id": 15,
+        "duracao_min": 10
+      },
+      "observacao": "diminutivo coloquial"
+    },
+    "predicao": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 15,
+          "duracao_min": 10
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 15,
+    "case_id": 15,
+    "caso_original": {
+      "id": 15,
+      "categoria": "variacoes_fala",
+      "frase": "Peso da colmeia numero oito?",
+      "ferramenta_esperada": "consultar_status_colmeia",
+      "argumentos_esperados": {
+        "colmeia_id": 8
+      },
+      "observacao": "numero por extenso"
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 16,
+    "case_id": 16,
+    "caso_original": {
+      "id": 16,
+      "categoria": "variacoes_fala",
+      "frase": "Umidade e temperatura da colmeia 20, por favor.",
+      "ferramenta_esperada": "consultar_status_colmeia",
+      "argumentos_esperados": {
+        "colmeia_id": 20
+      },
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 20
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 17,
+    "case_id": 17,
+    "caso_original": {
+      "id": 17,
+      "categoria": "parametro_implicito",
+      "frase": "Ativa modo inspecao na colmeia 3.",
+      "ferramenta_esperada": "ativar_modo_inspecao",
+      "argumentos_esperados": {
+        "colmeia_id": 3
+      },
+      "observacao": "duracao_min ausente na frase; correto e o modelo OMITIR o campo, nao adivinhar um valor"
+    },
+    "predicao": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 3,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 18,
+    "case_id": 18,
+    "caso_original": {
+      "id": 18,
+      "categoria": "parametro_implicito",
+      "frase": "Preciso mexer na colmeia 11 rapidinho.",
+      "ferramenta_esperada": "ativar_modo_inspecao",
+      "argumentos_esperados": {
+        "colmeia_id": 11
+      },
+      "observacao": "'rapidinho' nao e valor numerico fundamentavel; duracao_min deve ficar ausente"
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 11
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 19,
+    "case_id": 19,
+    "caso_original": {
+      "id": 19,
+      "categoria": "parametro_implicito",
+      "frase": "Status.",
+      "ferramenta_esperada": "consultar_status_colmeia",
+      "argumentos_esperados": null,
+      "observacao": "colmeia_id e obrigatorio e nao esta na frase; caso de teste do limite -- esperado e falha limpa (campo obrigatorio ausente), nao um id inventado"
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 20,
+    "case_id": 20,
+    "caso_original": {
+      "id": 20,
+      "categoria": "parametro_implicito",
+      "frase": "Colmeias com alerta nos ultimos dias?",
+      "ferramenta_esperada": "listar_colmeias_alerta",
+      "argumentos_esperados": {},
+      "observacao": "ferramenta atual nao tem filtro de periodo; 'ultimos dias' deve ser ignorado, nao inventado como argumento"
+    },
+    "predicao": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 21,
+    "case_id": 21,
+    "caso_original": {
+      "id": 21,
+      "categoria": "parametro_implicito",
+      "frase": "Inspecao na colmeia 9 por um quarto de hora.",
+      "ferramenta_esperada": "ativar_modo_inspecao",
+      "argumentos_esperados": {
+        "colmeia_id": 9,
+        "duracao_min": 15
+      },
+      "observacao": "conversao 'quarto de hora' -> 15 min"
+    },
+    "predicao": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 9,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 22,
+    "case_id": 22,
+    "caso_original": {
+      "id": 22,
+      "categoria": "parametro_implicito",
+      "frase": "Coloca a colmeia 2 em inspecao ate eu terminar.",
+      "ferramenta_esperada": "ativar_modo_inspecao",
+      "argumentos_esperados": {
+        "colmeia_id": 2
+      },
+      "observacao": "duracao indefinida; duracao_min deve ficar ausente"
+    },
+    "predicao": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 23,
+    "case_id": 23,
+    "caso_original": {
+      "id": 23,
+      "categoria": "ambiguos",
+      "frase": "Colmeia 3 e colmeia 4, como estao?",
+      "ferramenta_esperada": "consultar_status_colmeia",
+      "argumentos_esperados": null,
+      "observacao": "duas colmeias, ferramenta so aceita uma; observar se o modelo escolhe uma, falha, ou tenta produzir duas chamadas (nao suportado por este schema de 1 chamada)"
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 3
+        }
+      },
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 4
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 24,
+    "case_id": 24,
+    "caso_original": {
+      "id": 24,
+      "categoria": "ambiguos",
+      "frase": "As colmeias da fileira de tras estao bem?",
+      "ferramenta_esperada": null,
+      "argumentos_esperados": null,
+      "observacao": "sem id numerico fundamentavel; esperado e chamada vazia"
+    },
+    "predicao": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 25,
+    "case_id": 25,
+    "caso_original": {
+      "id": 25,
+      "categoria": "ambiguos",
+      "frase": "Coloca todas as colmeias em modo inspecao.",
+      "ferramenta_esperada": "ativar_modo_inspecao",
+      "argumentos_esperados": null,
+      "observacao": "'todas' nao e um colmeia_id valido (schema aceita so integer 1-50); esperado e colmeia_id ausente ou chamada vazia"
+    },
+    "predicao": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 26,
+    "case_id": 26,
+    "caso_original": {
+      "id": 26,
+      "categoria": "ambiguos",
+      "frase": "A colmeia la do fundo, perto da mangueira, ta como?",
+      "ferramenta_esperada": null,
+      "argumentos_esperados": null,
+      "observacao": "referencia espacial, sem id; esperado e chamada vazia"
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 27,
+    "case_id": 27,
+    "caso_original": {
+      "id": 27,
+      "categoria": "ambiguos",
+      "frase": "Inspecao na colmeia 5, tipo, agora.",
+      "ferramenta_esperada": "ativar_modo_inspecao",
+      "argumentos_esperados": {
+        "colmeia_id": 5
+      },
+      "observacao": "'agora' nao e duracao; duracao_min deve ficar ausente"
+    },
+    "predicao": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 5,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 28,
+    "case_id": 28,
+    "caso_original": {
+      "id": 28,
+      "categoria": "ambiguos",
+      "frase": "Quero saber da colmeia 3, mas so a temperatura.",
+      "ferramenta_esperada": "consultar_status_colmeia",
+      "argumentos_esperados": {
+        "colmeia_id": 3
+      },
+      "observacao": "schema atual nao filtra por campo especifico; limitacao de design a discutir no artigo, nao falha do modelo"
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 3
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 29,
+    "case_id": 29,
+    "caso_original": {
+      "id": 29,
+      "categoria": "fora_escopo",
+      "frase": "Vai chover hoje?",
+      "ferramenta_esperada": null,
+      "argumentos_esperados": null,
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 30,
+    "case_id": 30,
+    "caso_original": {
+      "id": 30,
+      "categoria": "fora_escopo",
+      "frase": "Qual a previsao do tempo pra semana?",
+      "ferramenta_esperada": null,
+      "argumentos_esperados": null,
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 31,
+    "case_id": 31,
+    "caso_original": {
+      "id": 31,
+      "categoria": "fora_escopo",
+      "frase": "Quanto custa um quilo de mel?",
+      "ferramenta_esperada": null,
+      "argumentos_esperados": null,
+      "observacao": ""
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 32,
+    "case_id": 32,
+    "caso_original": {
+      "id": 32,
+      "categoria": "fora_escopo",
+      "frase": "Explica como funciona a colmeia.",
+      "ferramenta_esperada": null,
+      "argumentos_esperados": null,
+      "observacao": "pedido de explicacao, nao de acao/consulta"
+    },
+    "predicao": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 1,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 33,
+    "case_id": 33,
+    "caso_original": {
+      "id": 33,
+      "categoria": "fora_escopo",
+      "frase": "Oi, tudo bem?",
+      "ferramenta_esperada": null,
+      "argumentos_esperados": null,
+      "observacao": "saudacao"
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 34,
+    "case_id": 34,
+    "caso_original": {
+      "id": 34,
+      "categoria": "fora_escopo",
+      "frase": "Reinicia o sistema.",
+      "ferramenta_esperada": null,
+      "argumentos_esperados": null,
+      "observacao": "comando plausivel mas fora do schema testado (nao existe reset_sistema nas 3 ferramentas)"
+    },
+    "predicao": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 35,
+    "case_id": 35,
+    "caso_original": {
+      "id": 35,
+      "categoria": "fora_escopo",
+      "frase": "Qual o preco do dolar hoje?",
+      "ferramenta_esperada": null,
+      "argumentos_esperados": null,
+      "observacao": ""
+    },
+    "predicao": [],
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "indice": 36,
+    "case_id": 36,
+    "caso_original": {
+      "id": 36,
+      "categoria": "fora_escopo",
+      "frase": "Manda um relatorio completo do mes passado.",
+      "ferramenta_esperada": null,
+      "argumentos_esperados": null,
+      "observacao": "fora do schema atual (sem ferramenta de relatorio periodico)"
+    },
+    "predicao": [],
+    "parse_error": null,
+    "returncode": 0
+  }
+]

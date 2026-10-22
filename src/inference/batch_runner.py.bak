@@ -1,0 +1,201 @@
+#!/usr/bin/env python3
+"""Execução experimental do Needle 2 no host Linux."""
+
+import argparse
+import hashlib
+import json
+import subprocess
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+ENGINE = ROOT / "external/needle-2-esp32"
+BINARY = ENGINE / "build-host/nd_dump"
+MODEL = ENGINE / "model/needle2.cact"
+SCHEMA = ROOT / "firmware/tools/colmeia.json"
+DATASET = ROOT / "dataset/colmeia-needle2-dataset-teste.json"
+OUTPUT = ROOT / "results/experiments/needle2_host"
+
+
+def sha256(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def extract_prompt(case):
+    for key in ("entrada", "comando", "frase", "texto", "prompt", "utterance"):
+        value = case.get(key)
+        if isinstance(value, str) and value.strip():
+            return value
+    raise ValueError(f"Campo de entrada não identificado: {case}")
+
+
+def run_case(case, repetition, max_new, think, timeout):
+    prompt = extract_prompt(case)
+
+    cmd = [
+        str(BINARY),
+        str(MODEL),
+        "genp",
+        str(SCHEMA),
+        prompt,
+        str(max_new),
+    ]
+
+    if not think:
+        cmd.append("nothink")
+
+    started = datetime.now(timezone.utc).isoformat()
+    t0 = time.perf_counter()
+
+    try:
+        process = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=timeout,
+            check=False,
+        )
+        stdout = process.stdout
+        stderr = process.stderr
+        returncode = process.returncode
+        error = None
+    except subprocess.TimeoutExpired as exc:
+        stdout = exc.stdout or b""
+        stderr = exc.stderr or b""
+        if isinstance(stdout, bytes):
+            stdout = stdout.decode("utf-8", "replace")
+        if isinstance(stderr, bytes):
+            stderr = stderr.decode("utf-8", "replace")
+        returncode = None
+        error = "timeout"
+
+    elapsed_ms = round((time.perf_counter() - t0) * 1000, 3)
+    lines = stdout.splitlines()
+
+    tokens = [
+        line[4:].replace("\\n", "\n")
+        for line in lines
+        if line.startswith("TOK ")
+    ]
+
+    return {
+        "case_id": case.get("id"),
+        "category": case.get("categoria"),
+        "repetition": repetition,
+        "prompt": prompt,
+        "started_at_utc": started,
+        "think": think,
+        "max_new": max_new,
+        "timeout_seconds": timeout,
+        "elapsed_wall_ms": elapsed_ms,
+        "returncode": returncode,
+        "error": error,
+        "model_output": "".join(tokens),
+        "confidence_events": [
+            line for line in lines if line.startswith("CONF ")
+        ],
+        "timing_events": [
+            line for line in lines if line.startswith("EVT ")
+        ],
+        "action_events": [
+            line for line in lines if line.startswith("ACT ")
+        ],
+        "error_events": [
+            line for line in lines if line.startswith("ERR ")
+        ],
+        "stdout_raw": stdout,
+        "stderr_raw": stderr,
+    }
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--repetitions", type=int, default=1)
+    parser.add_argument("--max-new", type=int, default=96)
+    parser.add_argument("--timeout", type=int, default=300)
+    parser.add_argument("--think", action="store_true")
+    parser.add_argument("--limit", type=int, default=0)
+    args = parser.parse_args()
+
+    if args.repetitions < 1:
+        parser.error("--repetitions deve ser >= 1")
+
+    for path in (BINARY, MODEL, SCHEMA, DATASET):
+        if not path.is_file():
+            parser.error(f"Arquivo ausente: {path}")
+
+    data = json.loads(DATASET.read_text(encoding="utf-8"))
+    cases = data["casos"]
+
+    if args.limit:
+        cases = cases[:args.limit]
+
+    OUTPUT.mkdir(parents=True, exist_ok=True)
+
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    run_dir = OUTPUT / stamp
+    run_dir.mkdir()
+
+    metadata = {
+        "engine_commit": "61cafad7014a5664bb3ffd5f0c457ce5aa6598ae",
+        "model_sha256": sha256(MODEL),
+        "schema_sha256": sha256(SCHEMA),
+        "dataset_sha256": sha256(DATASET),
+        "repetitions": args.repetitions,
+        "max_new": args.max_new,
+        "think": args.think,
+        "timeout_seconds": args.timeout,
+        "selected_cases": len(cases),
+        "execution_environment": "Linux host",
+    }
+
+    (run_dir / "metadata.json").write_text(
+        json.dumps(metadata, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+    output_file = run_dir / "raw_results.jsonl"
+
+    total = len(cases) * args.repetitions
+    counter = 0
+
+    with output_file.open("w", encoding="utf-8") as out:
+        for repetition in range(1, args.repetitions + 1):
+            for case in cases:
+                counter += 1
+                print(
+                    f"[{counter}/{total}] "
+                    f"Caso {case.get('id')} | repetição {repetition}",
+                    flush=True,
+                )
+
+                result = run_case(
+                    case,
+                    repetition,
+                    args.max_new,
+                    args.think,
+                    args.timeout,
+                )
+
+                out.write(json.dumps(result, ensure_ascii=False) + "\n")
+                out.flush()
+
+                print(
+                    f"  tempo={result['elapsed_wall_ms']} ms "
+                    f"retorno={result['returncode']} "
+                    f"erro={result['error']}",
+                    flush=True,
+                )
+
+    print(f"\nResultados salvos em: {output_file}")
+
+
+if __name__ == "__main__":
+    main()

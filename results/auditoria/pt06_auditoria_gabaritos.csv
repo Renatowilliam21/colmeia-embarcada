@@ -1,0 +1,37 @@
+id,categoria,frase,necessita_revisao,problemas
+1,diretos,Qual o status da colmeia 3?,False,
+2,diretos,Colmeia 7: peso e temperatura atual.,False,
+3,diretos,Tem alguma colmeia em alerta agora?,False,
+4,diretos,Liste as colmeias com problema.,False,
+5,diretos,Ativa o modo inspecao na colmeia 5 por 20 minutos.,False,
+6,diretos,"Preciso inspecionar a colmeia 12, pausa os alertas por 30 minutos.",False,
+7,diretos,Como esta a colmeia 1?,False,
+8,diretos,Mostra os dados da colmeia 9.,False,
+9,variacoes_fala,"E ai, a colmeia dois ta como?",False,
+10,variacoes_fala,Da uma olhada na colmeia quatro pra mim.,False,
+11,variacoes_fala,Alguma colmeia pedindo atencao?,False,
+12,variacoes_fala,Quais colmeias estao fora do normal?,False,
+13,variacoes_fala,"Vou abrir a colmeia 6, desliga o alerta por meia hora.",False,
+14,variacoes_fala,"Bota a colmeia 15 em modo inspecao, uns 10 minutinhos.",False,
+15,variacoes_fala,Peso da colmeia numero oito?,False,
+16,variacoes_fala,"Umidade e temperatura da colmeia 20, por favor.",False,
+17,parametro_implicito,Ativa modo inspecao na colmeia 3.,True,Parâmetros obrigatórios ausentes: duracao_min; Revisão metodológica previamente sinalizada
+18,parametro_implicito,Preciso mexer na colmeia 11 rapidinho.,True,Parâmetros obrigatórios ausentes: duracao_min; Revisão metodológica previamente sinalizada
+19,parametro_implicito,Status.,True,Argumentos não representados como objeto; Revisão metodológica previamente sinalizada
+20,parametro_implicito,Colmeias com alerta nos ultimos dias?,False,
+21,parametro_implicito,Inspecao na colmeia 9 por um quarto de hora.,False,
+22,parametro_implicito,Coloca a colmeia 2 em inspecao ate eu terminar.,True,Parâmetros obrigatórios ausentes: duracao_min; Revisão metodológica previamente sinalizada
+23,ambiguos,"Colmeia 3 e colmeia 4, como estao?",True,Argumentos não representados como objeto; Revisão metodológica previamente sinalizada
+24,ambiguos,As colmeias da fileira de tras estao bem?,False,
+25,ambiguos,Coloca todas as colmeias em modo inspecao.,True,Argumentos não representados como objeto; Revisão metodológica previamente sinalizada
+26,ambiguos,"A colmeia la do fundo, perto da mangueira, ta como?",False,
+27,ambiguos,"Inspecao na colmeia 5, tipo, agora.",True,Parâmetros obrigatórios ausentes: duracao_min; Revisão metodológica previamente sinalizada
+28,ambiguos,"Quero saber da colmeia 3, mas so a temperatura.",False,
+29,fora_escopo,Vai chover hoje?,False,
+30,fora_escopo,Qual a previsao do tempo pra semana?,False,
+31,fora_escopo,Quanto custa um quilo de mel?,False,
+32,fora_escopo,Explica como funciona a colmeia.,False,
+33,fora_escopo,"Oi, tudo bem?",False,
+34,fora_escopo,Reinicia o sistema.,False,
+35,fora_escopo,Qual o preco do dolar hoje?,False,
+36,fora_escopo,Manda um relatorio completo do mes passado.,False,
