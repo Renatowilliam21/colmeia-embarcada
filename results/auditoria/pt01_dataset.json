@@ -1,0 +1,62 @@
+{
+  "total_casos": 36,
+  "ids_unicos": 36,
+  "categorias": {
+    "ambiguos": 6,
+    "diretos": 8,
+    "fora_escopo": 8,
+    "parametro_implicito": 6,
+    "variacoes_fala": 8
+  },
+  "ferramentas": [
+    "consultar_status_colmeia",
+    "listar_colmeias_alerta",
+    "ativar_modo_inspecao"
+  ],
+  "total_problemas": 7,
+  "problemas": [
+    {
+      "id": 17,
+      "tipo": "parametros_obrigatorios_ausentes",
+      "campos": [
+        "duracao_min"
+      ]
+    },
+    {
+      "id": 18,
+      "tipo": "parametros_obrigatorios_ausentes",
+      "campos": [
+        "duracao_min"
+      ]
+    },
+    {
+      "id": 19,
+      "tipo": "gabarito_indefinido",
+      "descricao": "Não há argumentos para avaliação exata."
+    },
+    {
+      "id": 22,
+      "tipo": "parametros_obrigatorios_ausentes",
+      "campos": [
+        "duracao_min"
+      ]
+    },
+    {
+      "id": 23,
+      "tipo": "gabarito_indefinido",
+      "descricao": "Não há argumentos para avaliação exata."
+    },
+    {
+      "id": 25,
+      "tipo": "gabarito_indefinido",
+      "descricao": "Não há argumentos para avaliação exata."
+    },
+    {
+      "id": 27,
+      "tipo": "parametros_obrigatorios_ausentes",
+      "campos": [
+        "duracao_min"
+      ]
+    }
+  ]
+}
