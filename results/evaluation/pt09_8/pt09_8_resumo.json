@@ -1,0 +1,32 @@
+{
+  "total": 540,
+  "exact_match": 195,
+  "exact_match_percent": 36.1111,
+  "schema_validos": 537,
+  "schema_validos_percent": 99.4444,
+  "casos_abstencao_esperada": 300,
+  "abstencoes_corretas": 15,
+  "taxa_abstencao_correta_percent": 5.0,
+  "chamadas_indevidas": 282,
+  "taxa_chamadas_indevidas_percent": 94.0,
+  "casos_chamada_esperada": 240,
+  "falhas_em_casos_com_chamada_esperada": 60,
+  "acionamentos_indevidos": 135,
+  "erros_parsing": 3,
+  "erros_execucao": 0,
+  "latencia_media_ms": 3241.189,
+  "latencia_mediana_ms": 3238.755,
+  "latencia_p90_ms": 3491.303,
+  "latencia_p95_ms": 3552.202,
+  "casos_distintos": 180,
+  "repeticoes": 3,
+  "dataset_sha256": "becf137d69b5eb39ad727f10be70b48672d2909d75a1c1563617e53f5a5fda18",
+  "resultados_sha256": "43416d5752feb15536307654687bacb3c683105e4362d6a493c832a82208997a",
+  "casos_com_predicoes_identicas": 180,
+  "casos_com_tres_acertos": 65,
+  "casos_com_zero_acertos": 115,
+  "erros_schema": {
+    "sem_erro": 537,
+    "resposta_nao_e_lista": 3
+  }
+}

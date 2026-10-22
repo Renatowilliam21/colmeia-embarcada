@@ -1,0 +1,6 @@
+categoria,total,exact_match,exact_match_percent,schema_validos,schema_validos_percent,casos_abstencao_esperada,abstencoes_corretas,taxa_abstencao_correta_percent,chamadas_indevidas,taxa_chamadas_indevidas_percent,casos_chamada_esperada,falhas_em_casos_com_chamada_esperada,acionamentos_indevidos,erros_parsing,erros_execucao,latencia_media_ms,latencia_mediana_ms,latencia_p90_ms,latencia_p95_ms
+ambiguos,120,0,0.0,117,97.5,72,0,0.0,69,95.8333,48,48,15,3,0,3173.127,3161.906,3427.732,3502.656
+diretos,84,84,100.0,84,100.0,0,0,,0,,84,0,0,0,0,3326.84,3300.12,3519.796,3622.44
+fora_escopo,108,15,13.8889,108,100.0,108,15,13.8889,93,86.1111,0,0,9,0,0,3110.391,3067.481,3315.155,3436.837
+parametro_implicito,120,0,0.0,120,100.0,120,0,0.0,120,100.0,0,0,99,0,0,3327.206,3335.021,3491.956,3573.045
+variacoes_fala,108,96,88.8889,108,100.0,0,0,,0,,108,12,12,0,0,3285.418,3259.218,3523.423,3582.284

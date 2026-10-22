@@ -1,0 +1,37 @@
+{
+  "Dataset homologado": {
+    "arquivo": "dataset/frozen/colmeia-needle2-sintetico-v1-homologado.json",
+    "sha256": "becf137d69b5eb39ad727f10be70b48672d2909d75a1c1563617e53f5a5fda18",
+    "tamanho_bytes": 78732
+  },
+  "Resultados brutos": {
+    "arquivo": "results/experiments/needle2_frozen/pt09_7_experimento_principal/raw_results.jsonl",
+    "sha256": "43416d5752feb15536307654687bacb3c683105e4362d6a493c832a82208997a",
+    "tamanho_bytes": 783314
+  },
+  "Metadados": {
+    "arquivo": "results/experiments/needle2_frozen/pt09_7_experimento_principal/metadata.json",
+    "sha256": "8e63bba32abeb4f74148952c1cdd1a5526681e790e3f0ccee91cf955b5deca70",
+    "tamanho_bytes": 31428
+  },
+  "Resumo da avaliação": {
+    "arquivo": "results/evaluation/pt09_8/pt09_8_resumo.json",
+    "sha256": "268d57d53c4cbb22910fa48d9089de424c71a0ecaa249cb1c5eaac20d124c56f",
+    "tamanho_bytes": 1006
+  },
+  "Resultados detalhados": {
+    "arquivo": "results/evaluation/pt09_8/pt09_8_resultados_detalhados.csv",
+    "sha256": "f25ed79a3972eaf37d090eda726a3947384904879affbac21f25127aaf25efde",
+    "tamanho_bytes": 140453
+  },
+  "Controlador experimental": {
+    "arquivo": "scripts/pt09_5_executar_experimento.py",
+    "sha256": "37863c627598a07c80ec102a9453bd480e4df017203f6f6a0f9c4f44255b3715",
+    "tamanho_bytes": 9132
+  },
+  "Avaliador": {
+    "arquivo": "src/evaluation/evaluate_frozen.py",
+    "sha256": "9861b0aad03d6f21eea6d13f827f676c3e42618f19019096dbe9d991224b69ef",
+    "tamanho_bytes": 15827
+  }
+}
