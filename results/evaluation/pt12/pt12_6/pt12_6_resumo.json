@@ -1,0 +1,23 @@
+{
+  "etapa": "PT-12.6",
+  "tipo": "diagnostico_de_desenvolvimento",
+  "total_avaliacoes": 360,
+  "avaliacoes_positivas": 180,
+  "avaliacoes_negativas": 180,
+  "falhas_positivas": 135,
+  "causas": {
+    "chamada_correta_bloqueada": 102,
+    "ferramenta_divergente": 33
+  },
+  "regras": {
+    "V4-R10": 57,
+    "V4-R14": 78
+  },
+  "categorias": {
+    "P1": 39,
+    "P2": 39,
+    "P3": 57
+  },
+  "casos_distintos_com_falhas": 45,
+  "observacao": "Classificação automática preliminar. A causa linguística específica exige inspeção humana dos casos."
+}

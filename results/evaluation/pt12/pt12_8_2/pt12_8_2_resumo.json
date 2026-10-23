@@ -1,0 +1,39 @@
+{
+  "etapa": "PT-12.5",
+  "tipo": "avaliacao_de_desenvolvimento",
+  "validacao_independente": false,
+  "dataset_sha256": "6ee8d7e0facc98b491fb52b39a51ad0debf4b64a7aa331d8a9e1d6f4abf47750",
+  "raw_sha256": "fba9ce9e24a2c7019a49b0edecee873ae4bb1e1e412c3410267c5efdce53253f",
+  "v4_sha256": "1e7df9d4d839221f469ef81fa05098fa7781f944848fd766b600a8ab00905565",
+  "metricas": {
+    "configuration": "C5_Needle2_V4_1",
+    "total": 360,
+    "valid_predictions": 354,
+    "invalid_predictions": 6,
+    "exact_match": 276,
+    "positive_correct": 102,
+    "correct_abstentions": 174,
+    "unauthorized_negative_calls": 0,
+    "unauthorized_actuations": 0,
+    "rules": {
+      "PARSE_ERROR": 6,
+      "V4-R00": 6,
+      "V4-R01": 3,
+      "V4-R08": 6,
+      "V4-R10": 108,
+      "V4-R11": 36,
+      "V4-R12": 6,
+      "V4-R13": 3,
+      "V4-R14": 129,
+      "V4.1-R11": 36,
+      "V4.1-R12": 21
+    },
+    "exact_match_percent": 76.6667
+  },
+  "observacoes": [
+    "Dados PT-11 utilizados no desenvolvimento da V4.",
+    "Tres repeticoes por caso, nao independentes.",
+    "Saidas invalidas permanecem no denominador.",
+    "Nenhuma ferramenta fisica foi executada."
+  ]
+}

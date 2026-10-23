@@ -1,0 +1,10 @@
+{
+  "stage": "PT-12.9",
+  "test_type": "adversarial_development",
+  "independent_validation": false,
+  "hardware_execution": false,
+  "total": 24,
+  "passed": 24,
+  "failed": 0,
+  "validator_sha256": "77d69cecdb763ad2ad5e7ef5ab46803170be9db359430ff49053c5b4f3107b71"
+}

@@ -1,0 +1,1037 @@
+{
+  "PT11-P1-013": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":30},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":30},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":30},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-014": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":2},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":2},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":2},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-015": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":45},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":45},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":45},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-016": [
+    {
+      "repetition": 1,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":19,\"duracao_min\":18},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":19,\"duracao_min\":18},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":19,\"duracao_min\":18},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-017": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":28},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":28},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":28},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-018": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":11},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":11},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":11},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-019": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":39},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":39},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":39},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-020": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":5},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":5},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":5},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-021": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":24},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":24},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":24},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-022": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":50},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":50},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":50},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-023": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":16},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":16},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":16},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-024": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":33},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":33},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":33},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P1-025": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":7},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":7},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":7},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-003": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-004": [
+    {
+      "repetition": 1,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-005": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-006": [
+    {
+      "repetition": 1,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-007": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-008": [
+    {
+      "repetition": 1,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1,\"duracao_min\":13},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1,\"duracao_min\":13},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1,\"duracao_min\":13},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-009": [
+    {
+      "repetition": 1,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1,\"duracao_min\":13},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1,\"duracao_min\":13},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1,\"duracao_min\":13},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-010": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-011": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-012": [
+    {
+      "repetition": 1,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-013": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-014": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{},\"name\":\"listar_colmeias_alerta\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P2-015": [
+    {
+      "repetition": 1,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1,\"duracao_min\":13},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1,\"duracao_min\":13},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":1,\"duracao_min\":13},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-001": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":4,\"duracao_min\":10},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":4,\"duracao_min\":10},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":4,\"duracao_min\":10},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-003": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":7,\"duracao_min\":5},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":7,\"duracao_min\":5},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":7,\"duracao_min\":5},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-004": [
+    {
+      "repetition": 1,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":31},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":31},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":31},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-005": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":12,\"duracao_min\":15},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":12,\"duracao_min\":15},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":12,\"duracao_min\":15},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-006": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":40,\"duracao_min\":60},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":40,\"duracao_min\":60},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":40,\"duracao_min\":60},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-007": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":22,\"duracao_min\":25},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":22,\"duracao_min\":25},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":22,\"duracao_min\":25},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-008": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":9,\"duracao_min\":12},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":9,\"duracao_min\":12},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":9,\"duracao_min\":12},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-009": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":35,\"duracao_min\":45},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":35,\"duracao_min\":45},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":35,\"duracao_min\":45},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-010": [
+    {
+      "repetition": 1,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":2},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":2},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":2},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-011": [
+    {
+      "repetition": 1,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":49},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":49},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":49},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-012": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":15,\"duracao_min\":50},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":15,\"duracao_min\":50},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":15,\"duracao_min\":50},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-013": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":27,\"duracao_min\":6},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":27,\"duracao_min\":6},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":27,\"duracao_min\":6},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-014": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":43,\"duracao_min\":40},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":43,\"duracao_min\":40},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":43,\"duracao_min\":40},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-015": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":20,\"duracao_min\":18},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":20,\"duracao_min\":18},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":20,\"duracao_min\":18},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-016": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":6,\"duracao_min\":55},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":6,\"duracao_min\":55},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":6,\"duracao_min\":55},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-017": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":38,\"duracao_min\":9},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":38,\"duracao_min\":9},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":38,\"duracao_min\":9},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-018": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":13,\"duracao_min\":22},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":13,\"duracao_min\":22},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":13,\"duracao_min\":22},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-019": [
+    {
+      "repetition": 1,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":46},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":46},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "ferramenta_divergente",
+      "rule": "V4-R14",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":46},\"name\":\"consultar_status_colmeia\"}]",
+      "authorized": "[]"
+    }
+  ],
+  "PT11-P3-020": [
+    {
+      "repetition": 1,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":29,\"duracao_min\":32},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 2,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":29,\"duracao_min\":32},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    },
+    {
+      "repetition": 3,
+      "reason": "chamada_correta_bloqueada",
+      "rule": "V4-R10",
+      "predicted": "[{\"arguments\":{\"colmeia_id\":29,\"duracao_min\":32},\"name\":\"ativar_modo_inspecao\"}]",
+      "authorized": "[]"
+    }
+  ]
+}

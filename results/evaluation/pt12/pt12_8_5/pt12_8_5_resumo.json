@@ -1,0 +1,42 @@
+{
+  "stage": "PT-12.8.5",
+  "evaluation_type": "retrospective_development",
+  "independent_validation": false,
+  "hardware_execution": false,
+  "cases": 120,
+  "evaluations": 360,
+  "dataset_sha256": "6ee8d7e0facc98b491fb52b39a51ad0debf4b64a7aa331d8a9e1d6f4abf47750",
+  "baseline_sha256": "1f1bea1822e88a4c3b74ce7355a4a501e24438033db821168e1df261c51c3ba6",
+  "v4_2_sha256": "77d69cecdb763ad2ad5e7ef5ab46803170be9db359430ff49053c5b4f3107b71",
+  "v4_1": {
+    "exact_match": 276,
+    "positive_correct": 102,
+    "correct_abstentions": 174
+  },
+  "v4_2": {
+    "exact_match": 309,
+    "positive_correct": 135,
+    "correct_abstentions": 174
+  },
+  "comparison": {
+    "improvements": 33,
+    "regressions": 0,
+    "negative_nonempty": 0,
+    "actuation_changes": 33,
+    "actuation_on_negative": 0
+  },
+  "rules": {
+    "V4-R11": 36,
+    "V4.1-R11": 36,
+    "V4-R10": 75,
+    "V4-R12": 6,
+    "V4.1-R12": 21,
+    "V4-R14": 129,
+    "V4.2-R13": 33,
+    "V4-R13": 3,
+    "INVALID_OUTPUT": 6,
+    "V4-R08": 6,
+    "V4-R00": 6,
+    "V4-R01": 3
+  }
+}

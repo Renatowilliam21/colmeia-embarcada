@@ -1,0 +1,18 @@
+{
+  "etapa": "PT-12.1",
+  "dataset_origem": "dataset/validation/pt11/pt11_6_dataset_sintetico_congelado.jsonl",
+  "dataset_sha256": "6ee8d7e0facc98b491fb52b39a51ad0debf4b64a7aa331d8a9e1d6f4abf47750",
+  "avaliacao_origem": "results/evaluation/pt11/pt11_8/pt11_8_detalhado.csv",
+  "avaliacao_sha256": "131ca75eb11cb88deacac470cd86298abb562d79dfe197ec45cbc0e0de79b1bd",
+  "configuracao": "C3_Needle2_V3",
+  "avaliacoes_positivas": 180,
+  "avaliacoes_positivas_rejeitadas_r12": 180,
+  "casos_positivos_distintos_rejeitados_r12": 60,
+  "categorias_por_caso": {
+    "P1": 25,
+    "P2": 15,
+    "P3": 20
+  },
+  "revisao_linguistica_humana": "pendente",
+  "observacao": "As 180 avaliações correspondem a 60 casos com três repetições, não a 180 frases independentes."
+}

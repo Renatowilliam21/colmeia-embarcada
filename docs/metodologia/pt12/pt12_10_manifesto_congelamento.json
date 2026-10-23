@@ -1,0 +1,55 @@
+{
+  "stage": "PT-12.10",
+  "created_at_utc": "2026-10-22T23:20:44.110741+00:00",
+  "status": "frozen_experimental_candidate",
+  "validator": "V4.2",
+  "development_dataset": "PT-11",
+  "independent_validation": false,
+  "human_homologation_pt11": false,
+  "hardware_execution": false,
+  "physical_actuation_authorized": false,
+  "results": {
+    "exact_match": 309,
+    "total_evaluations": 360,
+    "positive_correct": 135,
+    "correct_abstentions": 174,
+    "negative_unauthorized_calls": 0,
+    "adversarial_passed": 24,
+    "adversarial_total": 24
+  },
+  "artifacts": {
+    "dataset_pt11": {
+      "path": "dataset/validation/pt11/pt11_6_dataset_sintetico_congelado.jsonl",
+      "sha256": "6ee8d7e0facc98b491fb52b39a51ad0debf4b64a7aa331d8a9e1d6f4abf47750"
+    },
+    "inference_pt11": {
+      "path": "results/experiments/needle2_validation/pt11_7_experimento_principal/raw_results.jsonl",
+      "sha256": "fba9ce9e24a2c7019a49b0edecee873ae4bb1e1e412c3410267c5efdce53253f"
+    },
+    "validator_v4": {
+      "path": "src/safety/safety_validator_v4.py",
+      "sha256": "65ed06c144ca571929869336d8f74b859de2613f4b3330057702e8f3c0d2a190"
+    },
+    "validator_v4_1": {
+      "path": "src/safety/safety_validator_v4_1.py",
+      "sha256": "1e7df9d4d839221f469ef81fa05098fa7781f944848fd766b600a8ab00905565"
+    },
+    "validator_v4_2": {
+      "path": "src/safety/safety_validator_v4_2.py",
+      "sha256": "77d69cecdb763ad2ad5e7ef5ab46803170be9db359430ff49053c5b4f3107b71"
+    },
+    "tests_v4_2": {
+      "path": "tests/test_safety_validator_v4_2.py",
+      "sha256": "173f20d5399a3a47a0ed79a61498126ecabc066b574004c42e08c84f7591a0ce"
+    },
+    "evaluation_pt12_8_5": {
+      "path": "results/evaluation/pt12/pt12_8_5/pt12_8_5_resumo.json",
+      "sha256": "80f7d86e325c4560ced030c16c617f6092aeee1485ac6676b0a509370ca1abb6"
+    },
+    "adversarial_pt12_9": {
+      "path": "results/evaluation/pt12/pt12_9/pt12_9_resumo.json",
+      "sha256": "a5ee5fc852fc95f0bfe46afdce577e6c6a9c238c0ac380992e3e10e350810bdf"
+    }
+  },
+  "next_stage": "PT-13 independent validation"
+}

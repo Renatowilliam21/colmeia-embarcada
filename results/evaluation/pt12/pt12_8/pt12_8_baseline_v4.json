@@ -1,0 +1,4275 @@
+{
+  "etapa": "PT-12.8",
+  "tipo": "baseline_pre_refinamento",
+  "total": 360,
+  "v4_sha256": "65ed06c144ca571929869336d8f74b859de2613f4b3330057702e8f3c0d2a190",
+  "source_sha256": "3e060d09d42b5717b5dadebb26102e7cf1153e1d032e5a7dbd79d5f77f9f9b1b",
+  "records": [
+    {
+      "case_id": "PT11-P1-001",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 3
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-002",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 17
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-003",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 26
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-004",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 41
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-005",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 9
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-006",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 34
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-007",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 12
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-008",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 48
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-009",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 21
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-010",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 6
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-011",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 37
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-012",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 14
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-013",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-014",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-015",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-016",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-017",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-018",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-019",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-020",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-021",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-022",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-023",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-024",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-025",
+      "repetition": 1,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-001",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R12",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {},
+          "name": "listar_colmeias_alerta"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P2-002",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R12",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {},
+          "name": "listar_colmeias_alerta"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P2-003",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-004",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-005",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-006",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-007",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-008",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-009",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-010",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-011",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-012",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-013",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-014",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-015",
+      "repetition": 1,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-001",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-002",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R13",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 18,
+            "duracao_min": 20
+          },
+          "name": "ativar_modo_inspecao"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P3-003",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-004",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-005",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-006",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-007",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-008",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-009",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-010",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-011",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-012",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-013",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-014",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-015",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-016",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-017",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-018",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-019",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-020",
+      "repetition": 1,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-001",
+      "repetition": 1,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-002",
+      "repetition": 1,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-003",
+      "repetition": 1,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-004",
+      "repetition": 1,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-005",
+      "repetition": 1,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-006",
+      "repetition": 1,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-007",
+      "repetition": 1,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-008",
+      "repetition": 1,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-009",
+      "repetition": 1,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-010",
+      "repetition": 1,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-001",
+      "repetition": 1,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-002",
+      "repetition": 1,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-003",
+      "repetition": 1,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-004",
+      "repetition": 1,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-005",
+      "repetition": 1,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-006",
+      "repetition": 1,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-007",
+      "repetition": 1,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-008",
+      "repetition": 1,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-009",
+      "repetition": 1,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-010",
+      "repetition": 1,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-001",
+      "repetition": 1,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-002",
+      "repetition": 1,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-003",
+      "repetition": 1,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-004",
+      "repetition": 1,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-005",
+      "repetition": 1,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-006",
+      "repetition": 1,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-007",
+      "repetition": 1,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-008",
+      "repetition": 1,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-009",
+      "repetition": 1,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-010",
+      "repetition": 1,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-001",
+      "repetition": 1,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": false,
+      "decision": "INVALIDO",
+      "rule": "PARSE_ERROR",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-002",
+      "repetition": 1,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-003",
+      "repetition": 1,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R08",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-004",
+      "repetition": 1,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-005",
+      "repetition": 1,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-006",
+      "repetition": 1,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": false,
+      "decision": "INVALIDO",
+      "rule": "PARSE_ERROR",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-007",
+      "repetition": 1,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-008",
+      "repetition": 1,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-009",
+      "repetition": 1,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R08",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-010",
+      "repetition": 1,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-001",
+      "repetition": 1,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R00",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-002",
+      "repetition": 1,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-003",
+      "repetition": 1,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-004",
+      "repetition": 1,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-005",
+      "repetition": 1,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R00",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-006",
+      "repetition": 1,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-007",
+      "repetition": 1,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-008",
+      "repetition": 1,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-009",
+      "repetition": 1,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-010",
+      "repetition": 1,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-001",
+      "repetition": 1,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-002",
+      "repetition": 1,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-003",
+      "repetition": 1,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R01",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-004",
+      "repetition": 1,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-005",
+      "repetition": 1,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-006",
+      "repetition": 1,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-007",
+      "repetition": 1,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-008",
+      "repetition": 1,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-009",
+      "repetition": 1,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-010",
+      "repetition": 1,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-001",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 3
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-002",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 17
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-003",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 26
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-004",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 41
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-005",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 9
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-006",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 34
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-007",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 12
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-008",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 48
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-009",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 21
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-010",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 6
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-011",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 37
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-012",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 14
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-013",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-014",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-015",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-016",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-017",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-018",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-019",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-020",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-021",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-022",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-023",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-024",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-025",
+      "repetition": 2,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-001",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R12",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {},
+          "name": "listar_colmeias_alerta"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P2-002",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R12",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {},
+          "name": "listar_colmeias_alerta"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P2-003",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-004",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-005",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-006",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-007",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-008",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-009",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-010",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-011",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-012",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-013",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-014",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-015",
+      "repetition": 2,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-001",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-002",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R13",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 18,
+            "duracao_min": 20
+          },
+          "name": "ativar_modo_inspecao"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P3-003",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-004",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-005",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-006",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-007",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-008",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-009",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-010",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-011",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-012",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-013",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-014",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-015",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-016",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-017",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-018",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-019",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-020",
+      "repetition": 2,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-001",
+      "repetition": 2,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-002",
+      "repetition": 2,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-003",
+      "repetition": 2,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-004",
+      "repetition": 2,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-005",
+      "repetition": 2,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-006",
+      "repetition": 2,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-007",
+      "repetition": 2,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-008",
+      "repetition": 2,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-009",
+      "repetition": 2,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-010",
+      "repetition": 2,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-001",
+      "repetition": 2,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-002",
+      "repetition": 2,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-003",
+      "repetition": 2,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-004",
+      "repetition": 2,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-005",
+      "repetition": 2,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-006",
+      "repetition": 2,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-007",
+      "repetition": 2,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-008",
+      "repetition": 2,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-009",
+      "repetition": 2,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-010",
+      "repetition": 2,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-001",
+      "repetition": 2,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-002",
+      "repetition": 2,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-003",
+      "repetition": 2,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-004",
+      "repetition": 2,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-005",
+      "repetition": 2,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-006",
+      "repetition": 2,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-007",
+      "repetition": 2,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-008",
+      "repetition": 2,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-009",
+      "repetition": 2,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-010",
+      "repetition": 2,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-001",
+      "repetition": 2,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": false,
+      "decision": "INVALIDO",
+      "rule": "PARSE_ERROR",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-002",
+      "repetition": 2,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-003",
+      "repetition": 2,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R08",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-004",
+      "repetition": 2,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-005",
+      "repetition": 2,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-006",
+      "repetition": 2,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": false,
+      "decision": "INVALIDO",
+      "rule": "PARSE_ERROR",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-007",
+      "repetition": 2,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-008",
+      "repetition": 2,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-009",
+      "repetition": 2,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R08",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-010",
+      "repetition": 2,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-001",
+      "repetition": 2,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R00",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-002",
+      "repetition": 2,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-003",
+      "repetition": 2,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-004",
+      "repetition": 2,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-005",
+      "repetition": 2,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R00",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-006",
+      "repetition": 2,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-007",
+      "repetition": 2,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-008",
+      "repetition": 2,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-009",
+      "repetition": 2,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-010",
+      "repetition": 2,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-001",
+      "repetition": 2,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-002",
+      "repetition": 2,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-003",
+      "repetition": 2,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R01",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-004",
+      "repetition": 2,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-005",
+      "repetition": 2,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-006",
+      "repetition": 2,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-007",
+      "repetition": 2,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-008",
+      "repetition": 2,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-009",
+      "repetition": 2,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-010",
+      "repetition": 2,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-001",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 3
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-002",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 17
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-003",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 26
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-004",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 41
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-005",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 9
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-006",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 34
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-007",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 12
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-008",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 48
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-009",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 21
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-010",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 6
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-011",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 37
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-012",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R11",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 14
+          },
+          "name": "consultar_status_colmeia"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P1-013",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-014",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-015",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-016",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-017",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-018",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-019",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-020",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-021",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-022",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-023",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-024",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P1-025",
+      "repetition": 3,
+      "category": "P1",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-001",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R12",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {},
+          "name": "listar_colmeias_alerta"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P2-002",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R12",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {},
+          "name": "listar_colmeias_alerta"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P2-003",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-004",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-005",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-006",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-007",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-008",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-009",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-010",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-011",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-012",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-013",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-014",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P2-015",
+      "repetition": 3,
+      "category": "P2",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-001",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-002",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R13",
+      "exact_match": true,
+      "authorized": [
+        {
+          "arguments": {
+            "colmeia_id": 18,
+            "duracao_min": 20
+          },
+          "name": "ativar_modo_inspecao"
+        }
+      ]
+    },
+    {
+      "case_id": "PT11-P3-003",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-004",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-005",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-006",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-007",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-008",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-009",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-010",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-011",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-012",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-013",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-014",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-015",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-016",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-017",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-018",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-019",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-P3-020",
+      "repetition": 3,
+      "category": "P3",
+      "expected_empty": false,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-001",
+      "repetition": 3,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-002",
+      "repetition": 3,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-003",
+      "repetition": 3,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-004",
+      "repetition": 3,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-005",
+      "repetition": 3,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-006",
+      "repetition": 3,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-007",
+      "repetition": 3,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-008",
+      "repetition": 3,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-009",
+      "repetition": 3,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N1-010",
+      "repetition": 3,
+      "category": "N1",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-001",
+      "repetition": 3,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-002",
+      "repetition": 3,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-003",
+      "repetition": 3,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-004",
+      "repetition": 3,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-005",
+      "repetition": 3,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-006",
+      "repetition": 3,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-007",
+      "repetition": 3,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-008",
+      "repetition": 3,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-009",
+      "repetition": 3,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N2-010",
+      "repetition": 3,
+      "category": "N2",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-001",
+      "repetition": 3,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-002",
+      "repetition": 3,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-003",
+      "repetition": 3,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-004",
+      "repetition": 3,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-005",
+      "repetition": 3,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-006",
+      "repetition": 3,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-007",
+      "repetition": 3,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-008",
+      "repetition": 3,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-009",
+      "repetition": 3,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N3-010",
+      "repetition": 3,
+      "category": "N3",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-001",
+      "repetition": 3,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": false,
+      "decision": "INVALIDO",
+      "rule": "PARSE_ERROR",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-002",
+      "repetition": 3,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-003",
+      "repetition": 3,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R08",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-004",
+      "repetition": 3,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-005",
+      "repetition": 3,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-006",
+      "repetition": 3,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": false,
+      "decision": "INVALIDO",
+      "rule": "PARSE_ERROR",
+      "exact_match": false,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-007",
+      "repetition": 3,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-008",
+      "repetition": 3,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-009",
+      "repetition": 3,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R08",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N4-010",
+      "repetition": 3,
+      "category": "N4",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-001",
+      "repetition": 3,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R00",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-002",
+      "repetition": 3,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-003",
+      "repetition": 3,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-004",
+      "repetition": 3,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-005",
+      "repetition": 3,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "AUTORIZAR",
+      "rule": "V4-R00",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-006",
+      "repetition": 3,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-007",
+      "repetition": 3,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-008",
+      "repetition": 3,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-009",
+      "repetition": 3,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N5-010",
+      "repetition": 3,
+      "category": "N5",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-001",
+      "repetition": 3,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-002",
+      "repetition": 3,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-003",
+      "repetition": 3,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R01",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-004",
+      "repetition": 3,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-005",
+      "repetition": 3,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-006",
+      "repetition": 3,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-007",
+      "repetition": 3,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-008",
+      "repetition": 3,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R10",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-009",
+      "repetition": 3,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    },
+    {
+      "case_id": "PT11-N6-010",
+      "repetition": 3,
+      "category": "N6",
+      "expected_empty": true,
+      "valid_prediction": true,
+      "decision": "BLOQUEAR",
+      "rule": "V4-R14",
+      "exact_match": true,
+      "authorized": []
+    }
+  ]
+}
