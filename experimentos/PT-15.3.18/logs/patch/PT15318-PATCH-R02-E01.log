@@ -1,0 +1,71 @@
+# execucao=PT15318-PATCH-R02-E01
+# data=2026-10-24T12:58:02.030622
+# solicitacao=Ative o modo de inspeção da colmeia 3 por 10 minutos
+KV_DIAG phase=before_rewind pos=205 tail=13 layers=27 diff_k=0 diff_v=0 diff_ks=0 diff_vs=0 result=PASS
+KV_DIAG phase=after_rewind pos=205 tail=13 layers=27 diff_k=0 diff_v=0 diff_ks=0 diff_vs=0 result=PASS
+EVT reading 1/29
+EVT reading 2/29
+EVT reading 3/29
+EVT reading 4/29
+EVT reading 5/29
+EVT reading 6/29
+EVT reading 7/29
+EVT reading 8/29
+EVT reading 9/29
+EVT reading 10/29
+EVT reading 11/29
+EVT reading 12/29
+EVT reading 13/29
+EVT reading 14/29
+EVT reading 15/29
+EVT reading 16/29
+EVT reading 17/29
+EVT reading 18/29
+EVT reading 19/29
+EVT reading 20/29
+EVT reading 21/29
+EVT reading 22/29
+EVT reading 23/29
+EVT reading 24/29
+EVT reading 25/29
+EVT reading 26/29
+EVT reading 27/29
+EVT reading 28/29
+EVT reading 29/29
+EVT prefill tokens=29 ms=19625 tps=1.48 sink=192
+TOK [{"
+TOK name
+TOK ":"
+TOK ativ
+TOK ar
+TOK _
+TOK mod
+TOK o
+TOK _
+TOK ins
+TOK pec
+TOK ao
+TOK ","
+TOK arguments
+TOK ":{"
+TOK col
+TOK me
+TOK ia
+TOK _
+TOK id
+TOK ":
+TOK 3
+TOK ,"
+TOK du
+TOK rac
+TOK ao
+TOK _
+TOK min
+TOK ":
+TOK 10
+TOK }}]
+TOK </tool_call>
+CONF 0.9955
+EVT done tokens=32 ms=22955 tps=1.39
+ACT ativar_modo_inspecao colmeia_id=3 duracao_min=10 simulated=1
+RESULT inspecao colmeia_id=3 duracao_min=10 status=simulated simulated=1

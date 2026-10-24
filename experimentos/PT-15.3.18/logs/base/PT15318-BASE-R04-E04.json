@@ -1,0 +1,34 @@
+{
+  "execucao_id": "PT15318-BASE-R04-E04",
+  "caso_id": "E04",
+  "condicao": "base",
+  "data": "2026-10-24T15:25:29.425825",
+  "solicitacao": "Ativar modo inspeção colmeia 5 duração 30 minutos",
+  "ferramenta_esperada": "ativar_modo_inspecao",
+  "argumentos_esperados": {
+    "colmeia_id": 5,
+    "duracao_min": 30
+  },
+  "act": "ACT ativar_modo_inspecao colmeia_id=5 duracao_min=30 simulated=1",
+  "result": "RESULT inspecao colmeia_id=5 duracao_min=30 status=simulated simulated=1",
+  "erro_ferramenta": false,
+  "ferramenta_obtida": "ativar_modo_inspecao",
+  "argumentos_obtidos": {
+    "colmeia_id": 5,
+    "duracao_min": 30
+  },
+  "correto": true,
+  "duracao_s": 161.765,
+  "kv_diag": [],
+  "prefixo_reprocessado": true,
+  "evts": [
+    "EVT base_prefix_reprocessed=1",
+    "EVT prefix tokens=205 ms=113480 sink=0 (reprocessed)",
+    "EVT prefill tokens=33 ms=22424 tps=1.47 sink=0",
+    "EVT done tokens=32 ms=23045 tps=1.39"
+  ],
+  "conf": [
+    "CONF 0.9988"
+  ],
+  "firmware_verificado": true
+}

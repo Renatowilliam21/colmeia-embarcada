@@ -1,0 +1,78 @@
+# execucao=PT15318-BASE-R04-E05
+# data=2026-10-24T15:25:30.427053
+# solicitacao=Qual é o status da colmeia 5?
+EVT priming tokens=205 (BASE; reprocessed for every request)
+EVT priming 8/205  4%  elapsed=4s  eta=94s
+EVT priming 16/205  8%  elapsed=8s  eta=89s
+EVT priming 24/205  12%  elapsed=11s  eta=86s
+EVT priming 32/205  16%  elapsed=15s  eta=82s
+EVT priming 40/205  20%  elapsed=19s  eta=79s
+EVT priming 48/205  23%  elapsed=23s  eta=76s
+EVT priming 56/205  27%  elapsed=27s  eta=72s
+EVT priming 64/205  31%  elapsed=31s  eta=69s
+EVT priming 72/205  35%  elapsed=35s  eta=65s
+EVT priming 80/205  39%  elapsed=39s  eta=62s
+EVT priming 88/205  43%  elapsed=44s  eta=58s
+EVT priming 96/205  47%  elapsed=48s  eta=55s
+EVT priming 104/205  51%  elapsed=52s  eta=51s
+EVT priming 112/205  55%  elapsed=57s  eta=47s
+EVT priming 120/205  59%  elapsed=61s  eta=43s
+EVT priming 128/205  62%  elapsed=66s  eta=40s
+EVT priming 136/205  66%  elapsed=70s  eta=36s
+EVT priming 144/205  70%  elapsed=75s  eta=32s
+EVT priming 152/205  74%  elapsed=80s  eta=28s
+EVT priming 160/205  78%  elapsed=85s  eta=24s
+EVT priming 168/205  82%  elapsed=90s  eta=20s
+EVT priming 176/205  86%  elapsed=95s  eta=16s
+EVT priming 184/205  90%  elapsed=100s  eta=11s
+EVT priming 192/205  94%  elapsed=105s  eta=7s
+EVT priming 200/205  98%  elapsed=110s  eta=3s
+EVT priming 205/205  100%  elapsed=113s  eta=0s
+EVT base_prefix_reprocessed=1
+EVT prefix tokens=205 ms=113482 sink=0 (reprocessed)
+EVT reading 1/17
+EVT reading 2/17
+EVT reading 3/17
+EVT reading 4/17
+EVT reading 5/17
+EVT reading 6/17
+EVT reading 7/17
+EVT reading 8/17
+EVT reading 9/17
+EVT reading 10/17
+EVT reading 11/17
+EVT reading 12/17
+EVT reading 13/17
+EVT reading 14/17
+EVT reading 15/17
+EVT reading 16/17
+EVT reading 17/17
+EVT prefill tokens=17 ms=11415 tps=1.49 sink=0
+TOK [{"
+TOK name
+TOK ":"
+TOK cons
+TOK ult
+TOK ar
+TOK _
+TOK status
+TOK _
+TOK col
+TOK me
+TOK ia
+TOK ","
+TOK arguments
+TOK ":{"
+TOK col
+TOK me
+TOK ia
+TOK _
+TOK id
+TOK ":
+TOK 5
+TOK }}]
+TOK </tool_call>
+CONF 0.9996
+EVT done tokens=24 ms=16917 tps=1.42
+ACT consultar_status_colmeia colmeia_id=5 simulated=1
+RESULT status colmeia_id=5 peso_kg=25.4 temperatura_c=34.2 umidade_pct=65.0 simulated=1

@@ -1,0 +1,72 @@
+# execucao=PT15318-PATCH-R02-E02
+# data=2026-10-24T12:58:48.427747
+# solicitacao=Coloque a colmeia 7 em modo de inspeção durante 20 minutos
+KV_DIAG phase=before_rewind pos=270 tail=13 layers=27 diff_k=27 diff_v=27 diff_ks=27 diff_vs=27 result=DIFF
+KV_DIAG phase=after_rewind pos=205 tail=13 layers=27 diff_k=0 diff_v=0 diff_ks=0 diff_vs=0 result=PASS
+EVT reading 1/30
+EVT reading 2/30
+EVT reading 3/30
+EVT reading 4/30
+EVT reading 5/30
+EVT reading 6/30
+EVT reading 7/30
+EVT reading 8/30
+EVT reading 9/30
+EVT reading 10/30
+EVT reading 11/30
+EVT reading 12/30
+EVT reading 13/30
+EVT reading 14/30
+EVT reading 15/30
+EVT reading 16/30
+EVT reading 17/30
+EVT reading 18/30
+EVT reading 19/30
+EVT reading 20/30
+EVT reading 21/30
+EVT reading 22/30
+EVT reading 23/30
+EVT reading 24/30
+EVT reading 25/30
+EVT reading 26/30
+EVT reading 27/30
+EVT reading 28/30
+EVT reading 29/30
+EVT reading 30/30
+EVT prefill tokens=30 ms=20318 tps=1.48 sink=192
+TOK [{"
+TOK name
+TOK ":"
+TOK ativ
+TOK ar
+TOK _
+TOK mod
+TOK o
+TOK _
+TOK ins
+TOK pec
+TOK ao
+TOK ","
+TOK arguments
+TOK ":{"
+TOK col
+TOK me
+TOK ia
+TOK _
+TOK id
+TOK ":
+TOK 7
+TOK ,"
+TOK du
+TOK rac
+TOK ao
+TOK _
+TOK min
+TOK ":
+TOK 20
+TOK }}]
+TOK </tool_call>
+CONF 0.3515
+EVT done tokens=32 ms=22970 tps=1.39
+ACT ativar_modo_inspecao colmeia_id=7 duracao_min=20 simulated=1
+RESULT inspecao colmeia_id=7 duracao_min=20 status=simulated simulated=1

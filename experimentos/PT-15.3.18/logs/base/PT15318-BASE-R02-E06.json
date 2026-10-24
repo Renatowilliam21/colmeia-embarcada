@@ -1,0 +1,28 @@
+{
+  "execucao_id": "PT15318-BASE-R02-E06",
+  "caso_id": "E06",
+  "condicao": "base",
+  "data": "2026-10-24T14:14:39.431407",
+  "solicitacao": "Liste as colmeias em alerta",
+  "ferramenta_esperada": "listar_colmeias_alerta",
+  "argumentos_esperados": {},
+  "act": "ACT listar_colmeias_alerta simulated=1",
+  "result": "RESULT alertas colmeias=[3,7,12] simulated=1",
+  "erro_ferramenta": false,
+  "ferramenta_obtida": "listar_colmeias_alerta",
+  "argumentos_obtidos": {},
+  "correto": true,
+  "duracao_s": 138.842,
+  "kv_diag": [],
+  "prefixo_reprocessado": true,
+  "evts": [
+    "EVT base_prefix_reprocessed=1",
+    "EVT prefix tokens=205 ms=113470 sink=0 (reprocessed)",
+    "EVT prefill tokens=15 ms=10050 tps=1.49 sink=0",
+    "EVT done tokens=18 ms=12582 tps=1.43"
+  ],
+  "conf": [
+    "CONF 0.9999"
+  ],
+  "firmware_verificado": true
+}

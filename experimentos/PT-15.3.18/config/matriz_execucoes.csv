@@ -1,0 +1,61 @@
+execucao_id,condicao,repeticao,caso_id,solicitacao,ferramenta_esperada,argumentos_esperados,status
+PT15318-BASE-R01-E01,base,1,E01,Ative o modo de inspeção da colmeia 3 por 10 minutos,ativar_modo_inspecao,"{""colmeia_id"": 3, ""duracao_min"": 10}",pendente
+PT15318-BASE-R01-E02,base,1,E02,Coloque a colmeia 7 em modo de inspeção durante 20 minutos,ativar_modo_inspecao,"{""colmeia_id"": 7, ""duracao_min"": 20}",pendente
+PT15318-BASE-R01-E03,base,1,E03,Inicie uma inspeção de 15 minutos na colmeia 12,ativar_modo_inspecao,"{""colmeia_id"": 12, ""duracao_min"": 15}",pendente
+PT15318-BASE-R01-E04,base,1,E04,Ativar modo inspeção colmeia 5 duração 30 minutos,ativar_modo_inspecao,"{""colmeia_id"": 5, ""duracao_min"": 30}",pendente
+PT15318-BASE-R01-E05,base,1,E05,Qual é o status da colmeia 5?,consultar_status_colmeia,"{""colmeia_id"": 5}",pendente
+PT15318-BASE-R01-E06,base,1,E06,Liste as colmeias em alerta,listar_colmeias_alerta,{},pendente
+PT15318-PATCH-R01-E01,patch,1,E01,Ative o modo de inspeção da colmeia 3 por 10 minutos,ativar_modo_inspecao,"{""colmeia_id"": 3, ""duracao_min"": 10}",pendente
+PT15318-PATCH-R01-E02,patch,1,E02,Coloque a colmeia 7 em modo de inspeção durante 20 minutos,ativar_modo_inspecao,"{""colmeia_id"": 7, ""duracao_min"": 20}",pendente
+PT15318-PATCH-R01-E03,patch,1,E03,Inicie uma inspeção de 15 minutos na colmeia 12,ativar_modo_inspecao,"{""colmeia_id"": 12, ""duracao_min"": 15}",pendente
+PT15318-PATCH-R01-E04,patch,1,E04,Ativar modo inspeção colmeia 5 duração 30 minutos,ativar_modo_inspecao,"{""colmeia_id"": 5, ""duracao_min"": 30}",pendente
+PT15318-PATCH-R01-E05,patch,1,E05,Qual é o status da colmeia 5?,consultar_status_colmeia,"{""colmeia_id"": 5}",pendente
+PT15318-PATCH-R01-E06,patch,1,E06,Liste as colmeias em alerta,listar_colmeias_alerta,{},pendente
+PT15318-BASE-R02-E01,base,2,E01,Ative o modo de inspeção da colmeia 3 por 10 minutos,ativar_modo_inspecao,"{""colmeia_id"": 3, ""duracao_min"": 10}",pendente
+PT15318-BASE-R02-E02,base,2,E02,Coloque a colmeia 7 em modo de inspeção durante 20 minutos,ativar_modo_inspecao,"{""colmeia_id"": 7, ""duracao_min"": 20}",pendente
+PT15318-BASE-R02-E03,base,2,E03,Inicie uma inspeção de 15 minutos na colmeia 12,ativar_modo_inspecao,"{""colmeia_id"": 12, ""duracao_min"": 15}",pendente
+PT15318-BASE-R02-E04,base,2,E04,Ativar modo inspeção colmeia 5 duração 30 minutos,ativar_modo_inspecao,"{""colmeia_id"": 5, ""duracao_min"": 30}",pendente
+PT15318-BASE-R02-E05,base,2,E05,Qual é o status da colmeia 5?,consultar_status_colmeia,"{""colmeia_id"": 5}",pendente
+PT15318-BASE-R02-E06,base,2,E06,Liste as colmeias em alerta,listar_colmeias_alerta,{},pendente
+PT15318-PATCH-R02-E01,patch,2,E01,Ative o modo de inspeção da colmeia 3 por 10 minutos,ativar_modo_inspecao,"{""colmeia_id"": 3, ""duracao_min"": 10}",pendente
+PT15318-PATCH-R02-E02,patch,2,E02,Coloque a colmeia 7 em modo de inspeção durante 20 minutos,ativar_modo_inspecao,"{""colmeia_id"": 7, ""duracao_min"": 20}",pendente
+PT15318-PATCH-R02-E03,patch,2,E03,Inicie uma inspeção de 15 minutos na colmeia 12,ativar_modo_inspecao,"{""colmeia_id"": 12, ""duracao_min"": 15}",pendente
+PT15318-PATCH-R02-E04,patch,2,E04,Ativar modo inspeção colmeia 5 duração 30 minutos,ativar_modo_inspecao,"{""colmeia_id"": 5, ""duracao_min"": 30}",pendente
+PT15318-PATCH-R02-E05,patch,2,E05,Qual é o status da colmeia 5?,consultar_status_colmeia,"{""colmeia_id"": 5}",pendente
+PT15318-PATCH-R02-E06,patch,2,E06,Liste as colmeias em alerta,listar_colmeias_alerta,{},pendente
+PT15318-BASE-R03-E01,base,3,E01,Ative o modo de inspeção da colmeia 3 por 10 minutos,ativar_modo_inspecao,"{""colmeia_id"": 3, ""duracao_min"": 10}",pendente
+PT15318-BASE-R03-E02,base,3,E02,Coloque a colmeia 7 em modo de inspeção durante 20 minutos,ativar_modo_inspecao,"{""colmeia_id"": 7, ""duracao_min"": 20}",pendente
+PT15318-BASE-R03-E03,base,3,E03,Inicie uma inspeção de 15 minutos na colmeia 12,ativar_modo_inspecao,"{""colmeia_id"": 12, ""duracao_min"": 15}",pendente
+PT15318-BASE-R03-E04,base,3,E04,Ativar modo inspeção colmeia 5 duração 30 minutos,ativar_modo_inspecao,"{""colmeia_id"": 5, ""duracao_min"": 30}",pendente
+PT15318-BASE-R03-E05,base,3,E05,Qual é o status da colmeia 5?,consultar_status_colmeia,"{""colmeia_id"": 5}",pendente
+PT15318-BASE-R03-E06,base,3,E06,Liste as colmeias em alerta,listar_colmeias_alerta,{},pendente
+PT15318-PATCH-R03-E01,patch,3,E01,Ative o modo de inspeção da colmeia 3 por 10 minutos,ativar_modo_inspecao,"{""colmeia_id"": 3, ""duracao_min"": 10}",pendente
+PT15318-PATCH-R03-E02,patch,3,E02,Coloque a colmeia 7 em modo de inspeção durante 20 minutos,ativar_modo_inspecao,"{""colmeia_id"": 7, ""duracao_min"": 20}",pendente
+PT15318-PATCH-R03-E03,patch,3,E03,Inicie uma inspeção de 15 minutos na colmeia 12,ativar_modo_inspecao,"{""colmeia_id"": 12, ""duracao_min"": 15}",pendente
+PT15318-PATCH-R03-E04,patch,3,E04,Ativar modo inspeção colmeia 5 duração 30 minutos,ativar_modo_inspecao,"{""colmeia_id"": 5, ""duracao_min"": 30}",pendente
+PT15318-PATCH-R03-E05,patch,3,E05,Qual é o status da colmeia 5?,consultar_status_colmeia,"{""colmeia_id"": 5}",pendente
+PT15318-PATCH-R03-E06,patch,3,E06,Liste as colmeias em alerta,listar_colmeias_alerta,{},pendente
+PT15318-BASE-R04-E01,base,4,E01,Ative o modo de inspeção da colmeia 3 por 10 minutos,ativar_modo_inspecao,"{""colmeia_id"": 3, ""duracao_min"": 10}",pendente
+PT15318-BASE-R04-E02,base,4,E02,Coloque a colmeia 7 em modo de inspeção durante 20 minutos,ativar_modo_inspecao,"{""colmeia_id"": 7, ""duracao_min"": 20}",pendente
+PT15318-BASE-R04-E03,base,4,E03,Inicie uma inspeção de 15 minutos na colmeia 12,ativar_modo_inspecao,"{""colmeia_id"": 12, ""duracao_min"": 15}",pendente
+PT15318-BASE-R04-E04,base,4,E04,Ativar modo inspeção colmeia 5 duração 30 minutos,ativar_modo_inspecao,"{""colmeia_id"": 5, ""duracao_min"": 30}",pendente
+PT15318-BASE-R04-E05,base,4,E05,Qual é o status da colmeia 5?,consultar_status_colmeia,"{""colmeia_id"": 5}",pendente
+PT15318-BASE-R04-E06,base,4,E06,Liste as colmeias em alerta,listar_colmeias_alerta,{},pendente
+PT15318-PATCH-R04-E01,patch,4,E01,Ative o modo de inspeção da colmeia 3 por 10 minutos,ativar_modo_inspecao,"{""colmeia_id"": 3, ""duracao_min"": 10}",pendente
+PT15318-PATCH-R04-E02,patch,4,E02,Coloque a colmeia 7 em modo de inspeção durante 20 minutos,ativar_modo_inspecao,"{""colmeia_id"": 7, ""duracao_min"": 20}",pendente
+PT15318-PATCH-R04-E03,patch,4,E03,Inicie uma inspeção de 15 minutos na colmeia 12,ativar_modo_inspecao,"{""colmeia_id"": 12, ""duracao_min"": 15}",pendente
+PT15318-PATCH-R04-E04,patch,4,E04,Ativar modo inspeção colmeia 5 duração 30 minutos,ativar_modo_inspecao,"{""colmeia_id"": 5, ""duracao_min"": 30}",pendente
+PT15318-PATCH-R04-E05,patch,4,E05,Qual é o status da colmeia 5?,consultar_status_colmeia,"{""colmeia_id"": 5}",pendente
+PT15318-PATCH-R04-E06,patch,4,E06,Liste as colmeias em alerta,listar_colmeias_alerta,{},pendente
+PT15318-BASE-R05-E01,base,5,E01,Ative o modo de inspeção da colmeia 3 por 10 minutos,ativar_modo_inspecao,"{""colmeia_id"": 3, ""duracao_min"": 10}",pendente
+PT15318-BASE-R05-E02,base,5,E02,Coloque a colmeia 7 em modo de inspeção durante 20 minutos,ativar_modo_inspecao,"{""colmeia_id"": 7, ""duracao_min"": 20}",pendente
+PT15318-BASE-R05-E03,base,5,E03,Inicie uma inspeção de 15 minutos na colmeia 12,ativar_modo_inspecao,"{""colmeia_id"": 12, ""duracao_min"": 15}",pendente
+PT15318-BASE-R05-E04,base,5,E04,Ativar modo inspeção colmeia 5 duração 30 minutos,ativar_modo_inspecao,"{""colmeia_id"": 5, ""duracao_min"": 30}",pendente
+PT15318-BASE-R05-E05,base,5,E05,Qual é o status da colmeia 5?,consultar_status_colmeia,"{""colmeia_id"": 5}",pendente
+PT15318-BASE-R05-E06,base,5,E06,Liste as colmeias em alerta,listar_colmeias_alerta,{},pendente
+PT15318-PATCH-R05-E01,patch,5,E01,Ative o modo de inspeção da colmeia 3 por 10 minutos,ativar_modo_inspecao,"{""colmeia_id"": 3, ""duracao_min"": 10}",pendente
+PT15318-PATCH-R05-E02,patch,5,E02,Coloque a colmeia 7 em modo de inspeção durante 20 minutos,ativar_modo_inspecao,"{""colmeia_id"": 7, ""duracao_min"": 20}",pendente
+PT15318-PATCH-R05-E03,patch,5,E03,Inicie uma inspeção de 15 minutos na colmeia 12,ativar_modo_inspecao,"{""colmeia_id"": 12, ""duracao_min"": 15}",pendente
+PT15318-PATCH-R05-E04,patch,5,E04,Ativar modo inspeção colmeia 5 duração 30 minutos,ativar_modo_inspecao,"{""colmeia_id"": 5, ""duracao_min"": 30}",pendente
+PT15318-PATCH-R05-E05,patch,5,E05,Qual é o status da colmeia 5?,consultar_status_colmeia,"{""colmeia_id"": 5}",pendente
+PT15318-PATCH-R05-E06,patch,5,E06,Liste as colmeias em alerta,listar_colmeias_alerta,{},pendente

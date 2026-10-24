@@ -1,0 +1,32 @@
+{
+  "execucao_id": "PT15318-PATCH-R04-E05",
+  "caso_id": "E05",
+  "condicao": "patch",
+  "data": "2026-10-24T13:09:55.256400",
+  "solicitacao": "Qual é o status da colmeia 5?",
+  "ferramenta_esperada": "consultar_status_colmeia",
+  "argumentos_esperados": {
+    "colmeia_id": 5
+  },
+  "act": "ACT consultar_status_colmeia colmeia_id=5 simulated=1",
+  "result": "RESULT status colmeia_id=5 peso_kg=25.4 temperatura_c=34.2 umidade_pct=65.0 simulated=1",
+  "erro_ferramenta": false,
+  "ferramenta_obtida": "consultar_status_colmeia",
+  "argumentos_obtidos": {
+    "colmeia_id": 5
+  },
+  "correto": true,
+  "duracao_s": 31.063,
+  "kv_diag": [
+    "KV_DIAG phase=before_rewind pos=274 tail=13 layers=27 diff_k=27 diff_v=27 diff_ks=27 diff_vs=27 result=DIFF",
+    "KV_DIAG phase=after_rewind pos=205 tail=13 layers=27 diff_k=0 diff_v=0 diff_ks=0 diff_vs=0 result=PASS"
+  ],
+  "evts": [
+    "EVT prefill tokens=17 ms=11403 tps=1.49 sink=192",
+    "EVT done tokens=24 ms=16900 tps=1.42"
+  ],
+  "conf": [
+    "CONF 0.9996"
+  ],
+  "firmware_verificado": false
+}

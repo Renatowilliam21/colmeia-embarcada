@@ -1,0 +1,52 @@
+[
+  {
+    "id": "E01",
+    "solicitacao": "Ative o modo de inspeção da colmeia 3 por 10 minutos",
+    "ferramenta_esperada": "ativar_modo_inspecao",
+    "argumentos_esperados": {
+      "colmeia_id": 3,
+      "duracao_min": 10
+    }
+  },
+  {
+    "id": "E02",
+    "solicitacao": "Coloque a colmeia 7 em modo de inspeção durante 20 minutos",
+    "ferramenta_esperada": "ativar_modo_inspecao",
+    "argumentos_esperados": {
+      "colmeia_id": 7,
+      "duracao_min": 20
+    }
+  },
+  {
+    "id": "E03",
+    "solicitacao": "Inicie uma inspeção de 15 minutos na colmeia 12",
+    "ferramenta_esperada": "ativar_modo_inspecao",
+    "argumentos_esperados": {
+      "colmeia_id": 12,
+      "duracao_min": 15
+    }
+  },
+  {
+    "id": "E04",
+    "solicitacao": "Ativar modo inspeção colmeia 5 duração 30 minutos",
+    "ferramenta_esperada": "ativar_modo_inspecao",
+    "argumentos_esperados": {
+      "colmeia_id": 5,
+      "duracao_min": 30
+    }
+  },
+  {
+    "id": "E05",
+    "solicitacao": "Qual é o status da colmeia 5?",
+    "ferramenta_esperada": "consultar_status_colmeia",
+    "argumentos_esperados": {
+      "colmeia_id": 5
+    }
+  },
+  {
+    "id": "E06",
+    "solicitacao": "Liste as colmeias em alerta",
+    "ferramenta_esperada": "listar_colmeias_alerta",
+    "argumentos_esperados": {}
+  }
+]

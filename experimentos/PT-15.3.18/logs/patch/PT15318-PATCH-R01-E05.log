@@ -1,0 +1,51 @@
+# execucao=PT15318-PATCH-R01-E05
+# data=2026-10-24T12:47:14.585072
+# solicitacao=Qual é o status da colmeia 5?
+KV_DIAG phase=before_rewind pos=274 tail=13 layers=27 diff_k=27 diff_v=27 diff_ks=27 diff_vs=27 result=DIFF
+KV_DIAG phase=after_rewind pos=205 tail=13 layers=27 diff_k=0 diff_v=0 diff_ks=0 diff_vs=0 result=PASS
+EVT reading 1/17
+EVT reading 2/17
+EVT reading 3/17
+EVT reading 4/17
+EVT reading 5/17
+EVT reading 6/17
+EVT reading 7/17
+EVT reading 8/17
+EVT reading 9/17
+EVT reading 10/17
+EVT reading 11/17
+EVT reading 12/17
+EVT reading 13/17
+EVT reading 14/17
+EVT reading 15/17
+EVT reading 16/17
+EVT reading 17/17
+EVT prefill tokens=17 ms=11403 tps=1.49 sink=192
+TOK [{"
+TOK name
+TOK ":"
+TOK cons
+TOK ult
+TOK ar
+TOK _
+TOK status
+TOK _
+TOK col
+TOK me
+TOK ia
+TOK ","
+TOK arguments
+TOK ":{"
+TOK col
+TOK me
+TOK ia
+TOK _
+TOK id
+TOK ":
+TOK 5
+TOK }}]
+TOK </tool_call>
+CONF 0.9996
+EVT done tokens=24 ms=16899 tps=1.42
+ACT consultar_status_colmeia colmeia_id=5 simulated=1
+RESULT status colmeia_id=5 peso_kg=25.4 temperatura_c=34.2 umidade_pct=65.0 simulated=1

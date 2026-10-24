@@ -1,0 +1,28 @@
+{
+  "execucao_id": "PT15318-PATCH-R04-E06",
+  "caso_id": "E06",
+  "condicao": "patch",
+  "data": "2026-10-24T13:10:21.640092",
+  "solicitacao": "Liste as colmeias em alerta",
+  "ferramenta_esperada": "listar_colmeias_alerta",
+  "argumentos_esperados": {},
+  "act": "ACT listar_colmeias_alerta simulated=1",
+  "result": "RESULT alertas colmeias=[3,7,12] simulated=1",
+  "erro_ferramenta": false,
+  "ferramenta_obtida": "listar_colmeias_alerta",
+  "argumentos_obtidos": {},
+  "correto": true,
+  "duracao_s": 25.383,
+  "kv_diag": [
+    "KV_DIAG phase=before_rewind pos=250 tail=13 layers=27 diff_k=0 diff_v=0 diff_ks=0 diff_vs=0 result=PASS",
+    "KV_DIAG phase=after_rewind pos=205 tail=13 layers=27 diff_k=0 diff_v=0 diff_ks=0 diff_vs=0 result=PASS"
+  ],
+  "evts": [
+    "EVT prefill tokens=15 ms=10047 tps=1.49 sink=192",
+    "EVT done tokens=18 ms=12578 tps=1.43"
+  ],
+  "conf": [
+    "CONF 0.9999"
+  ],
+  "firmware_verificado": false
+}

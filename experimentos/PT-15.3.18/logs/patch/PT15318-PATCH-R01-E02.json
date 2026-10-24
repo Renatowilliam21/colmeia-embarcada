@@ -1,0 +1,32 @@
+{
+  "execucao_id": "PT15318-PATCH-R01-E02",
+  "caso_id": "E02",
+  "condicao": "patch",
+  "data": "2026-10-24T12:40:14.429423",
+  "solicitacao": "Coloque a colmeia 7 em modo de inspeção durante 20 minutos",
+  "ferramenta_esperada": "ativar_modo_inspecao",
+  "argumentos_esperados": {
+    "colmeia_id": 7,
+    "duracao_min": 20
+  },
+  "act": "ACT ativar_modo_inspecao colmeia_id=7 duracao_min=20 simulated=1",
+  "ferramenta_obtida": "ativar_modo_inspecao",
+  "argumentos_obtidos": {
+    "colmeia_id": 7,
+    "duracao_min": 20
+  },
+  "correto": true,
+  "duracao_s": 46.1,
+  "kv_diag": [
+    "KV_DIAG phase=before_rewind pos=270 tail=13 layers=27 diff_k=27 diff_v=27 diff_ks=27 diff_vs=27 result=DIFF",
+    "KV_DIAG phase=after_rewind pos=205 tail=13 layers=27 diff_k=0 diff_v=0 diff_ks=0 diff_vs=0 result=PASS"
+  ],
+  "evts": [
+    "EVT prefill tokens=30 ms=20318 tps=1.48 sink=192",
+    "EVT done tokens=32 ms=22970 tps=1.39"
+  ],
+  "conf": [
+    "CONF 0.3515"
+  ],
+  "firmware_verificado": false
+}

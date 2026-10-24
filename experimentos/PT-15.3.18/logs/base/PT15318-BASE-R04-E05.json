@@ -1,0 +1,32 @@
+{
+  "execucao_id": "PT15318-BASE-R04-E05",
+  "caso_id": "E05",
+  "condicao": "base",
+  "data": "2026-10-24T15:27:54.991377",
+  "solicitacao": "Qual é o status da colmeia 5?",
+  "ferramenta_esperada": "consultar_status_colmeia",
+  "argumentos_esperados": {
+    "colmeia_id": 5
+  },
+  "act": "ACT consultar_status_colmeia colmeia_id=5 simulated=1",
+  "result": "RESULT status colmeia_id=5 peso_kg=25.4 temperatura_c=34.2 umidade_pct=65.0 simulated=1",
+  "erro_ferramenta": false,
+  "ferramenta_obtida": "consultar_status_colmeia",
+  "argumentos_obtidos": {
+    "colmeia_id": 5
+  },
+  "correto": true,
+  "duracao_s": 144.565,
+  "kv_diag": [],
+  "prefixo_reprocessado": true,
+  "evts": [
+    "EVT base_prefix_reprocessed=1",
+    "EVT prefix tokens=205 ms=113482 sink=0 (reprocessed)",
+    "EVT prefill tokens=17 ms=11415 tps=1.49 sink=0",
+    "EVT done tokens=24 ms=16917 tps=1.42"
+  ],
+  "conf": [
+    "CONF 0.9996"
+  ],
+  "firmware_verificado": true
+}
