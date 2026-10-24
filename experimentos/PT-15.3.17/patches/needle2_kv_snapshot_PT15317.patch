@@ -1,0 +1,98 @@
+diff --git a/engine/include/nd_model.h b/engine/include/nd_model.h
+index dd70c46..4569840 100644
+--- a/engine/include/nd_model.h
++++ b/engine/include/nd_model.h
+@@ -119,6 +119,10 @@ typedef struct {
+     uint32_t      snap_pos, snap_eg_pos;
+     uint32_t      snap_hist[8];
+     float        *snap_eg_hist;
++    /* PT-15.3.17: snapshot only the prefix slots outside the pinned sink. */
++    uint32_t      snap_kv_tail;
++    int8_t       *snap_k_cache, *snap_v_cache;
++    float        *snap_k_scale, *snap_v_scale;
+     float        *snap_pool_acc, *snap_pool_max, *snap_pool_sum;
+ 
+     uint32_t      hist[8];      /* recent token ids, for engram n-grams */
+diff --git a/engine/src/nd_model.c b/engine/src/nd_model.c
+index f4a78f5..bd1685b 100644
+--- a/engine/src/nd_model.c
++++ b/engine/src/nd_model.c
+@@ -374,6 +374,8 @@ void nd_model_close(nd_model *m)
+     ND_FREE(m->k_cache); ND_FREE(m->v_cache);
+     ND_FREE(m->k_scale); ND_FREE(m->v_scale);
+     ND_FREE(m->snap_eg_hist);
++    ND_FREE(m->snap_k_cache); ND_FREE(m->snap_v_cache);
++    ND_FREE(m->snap_k_scale); ND_FREE(m->snap_v_scale);
+     ND_FREE(m->snap_pool_acc); ND_FREE(m->snap_pool_max); ND_FREE(m->snap_pool_sum);
+     ND_FREE(m->probes_f);
+     ND_FREE(m->pool_acc); ND_FREE(m->pool_max); ND_FREE(m->pool_sum);
+@@ -476,6 +478,48 @@ int nd_model_snapshot(nd_model *m)
+     }
+ 
+     nd_model_set_sink(m, m->pos);
++    /* A prefix longer than the pinned sink has a tail in the circular
++     * region. Save exactly those slots before any request can overwrite them.
++     * No extra KV memory is needed when the whole prefix is pinned. */
++    {
++        uint32_t tail = m->pos - m->n_sink;
++        if (tail != m->snap_kv_tail) {
++            /* Allocate replacements before releasing the previous snapshot.
++             * A failed allocation leaves the previous snapshot intact. */
++            int8_t *kc = NULL, *vc = NULL;
++            float *ks = NULL, *vs = NULL;
++            if (tail) {
++                size_t kn = (size_t)m->n_layers * tail * m->kv_dim;
++                size_t sn = (size_t)m->n_layers * tail * m->n_kv_heads;
++                kc = (int8_t *)ND_ALLOC(kn);
++                vc = (int8_t *)ND_ALLOC(kn);
++                ks = (float *)ND_ALLOC(sizeof(float) * sn);
++                vs = (float *)ND_ALLOC(sizeof(float) * sn);
++                if (!kc || !vc || !ks || !vs) {
++                    ND_FREE(kc); ND_FREE(vc); ND_FREE(ks); ND_FREE(vs);
++                    return -1;
++                }
++            }
++            ND_FREE(m->snap_k_cache); ND_FREE(m->snap_v_cache);
++            ND_FREE(m->snap_k_scale); ND_FREE(m->snap_v_scale);
++            m->snap_k_cache = kc; m->snap_v_cache = vc;
++            m->snap_k_scale = ks; m->snap_v_scale = vs;
++            m->snap_kv_tail = tail;
++        }
++        if (tail) {
++            uint32_t li;
++            size_t kb = (size_t)tail * m->kv_dim;
++            size_t sb = (size_t)tail * m->n_kv_heads;
++            for (li = 0; li < m->n_layers; ++li) {
++                size_t src_k = ((size_t)li * m->window + m->n_sink) * m->kv_dim;
++                size_t src_s = ((size_t)li * m->window + m->n_sink) * m->n_kv_heads;
++                memcpy(m->snap_k_cache + (size_t)li * kb, m->k_cache + src_k, kb);
++                memcpy(m->snap_v_cache + (size_t)li * kb, m->v_cache + src_k, kb);
++                memcpy(m->snap_k_scale + (size_t)li * sb, m->k_scale + src_s, sizeof(float) * sb);
++                memcpy(m->snap_v_scale + (size_t)li * sb, m->v_scale + src_s, sizeof(float) * sb);
++            }
++        }
++    }
+     m->snap_pos    = m->pos;
+     m->snap_eg_pos = m->eg_pos;
+     memcpy(m->snap_hist, m->hist, sizeof(m->hist));
+@@ -498,6 +542,20 @@ void nd_model_rewind(nd_model *m)
+         nd_model_reset(m);
+         return;
+     }
++    /* Restore overwritten circular slots before decoding the next request. */
++    if (m->snap_kv_tail) {
++        uint32_t li;
++        size_t kb = (size_t)m->snap_kv_tail * m->kv_dim;
++        size_t sb = (size_t)m->snap_kv_tail * m->n_kv_heads;
++        for (li = 0; li < m->n_layers; ++li) {
++            size_t dst_k = ((size_t)li * m->window + m->n_sink) * m->kv_dim;
++            size_t dst_s = ((size_t)li * m->window + m->n_sink) * m->n_kv_heads;
++            memcpy(m->k_cache + dst_k, m->snap_k_cache + (size_t)li * kb, kb);
++            memcpy(m->v_cache + dst_k, m->snap_v_cache + (size_t)li * kb, kb);
++            memcpy(m->k_scale + dst_s, m->snap_k_scale + (size_t)li * sb, sizeof(float) * sb);
++            memcpy(m->v_scale + dst_s, m->snap_v_scale + (size_t)li * sb, sizeof(float) * sb);
++        }
++    }
+     m->pos    = m->snap_pos;
+     m->eg_pos = m->snap_eg_pos;
+     memcpy(m->hist, m->snap_hist, sizeof(m->hist));

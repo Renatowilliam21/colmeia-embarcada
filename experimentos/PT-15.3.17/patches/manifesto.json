@@ -1,0 +1,16 @@
+{
+  "experimento": "PT-15.3.17",
+  "motor": "needle-2-esp32",
+  "repositorio_origem": "https://github.com/andrisgauracs/needle-2-esp32.git",
+  "commit_base": "61cafad7014a5664bb3ffd5f0c457ce5aa6598ae",
+  "patch": "needle2_kv_snapshot_PT15317.patch",
+  "arquivos_modificados": [
+    "engine/include/nd_model.h",
+    "engine/src/nd_model.c"
+  ],
+  "plataforma": "ESP32-S3 N16R8",
+  "prefix_tokens": 205,
+  "sink_tokens": 192,
+  "tail_tokens": 13,
+  "layers": 27
+}
