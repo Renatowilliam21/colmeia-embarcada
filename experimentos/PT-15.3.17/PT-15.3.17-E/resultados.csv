@@ -1,0 +1,7 @@
+teste,solicitacao,ferramenta,colmeia_id,duracao_min,tokens_prefill,tokens_gerados,prefill_ms,geracao_ms,confianca,correto,simulado
+E01,Ative o modo de inspeção da colmeia 3 por 10 minutos,ativar_modo_inspecao,3,10,29,32,19626,22954,0.9955,1,1
+E02,Coloque a colmeia 7 em modo de inspeção durante 20 minutos,ativar_modo_inspecao,7,20,30,32,20319,22970,0.3515,1,1
+E03,Inicie uma inspeção de 15 minutos na colmeia 12,ativar_modo_inspecao,12,15,28,32,18937,22937,0.5213,1,1
+E04,Ativar modo inspeção colmeia 5 duração 30 minutos,ativar_modo_inspecao,5,30,33,32,22401,23016,0.9989,1,1
+E05,Qual é o status da colmeia 5?,consultar_status_colmeia,5,,17,24,11404,16900,0.9996,1,1
+E06,Liste as colmeias em alerta,listar_colmeias_alerta,,,15,18,10048,12578,0.9999,1,1
