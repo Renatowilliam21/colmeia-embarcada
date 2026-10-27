@@ -1,0 +1,54 @@
+\begin{thebibliography}{}
+
+\bibitem[{Cactus Compute} 2026]{cactusneedle2repo}
+{Cactus Compute} (2026).
+\newblock Needle 2: tiny function-calling ai for edge devices.
+\newblock \url{https://github.com/cactus-compute/needle}.
+\newblock Acessado em setembro de 2026.
+
+\bibitem[Cota et~al. 2023]{cota2023bhivesense}
+Cota, D., Martins, J., Mamede, H., and Branco, F. (2023).
+\newblock Bhivesense: An integrated information system architecture for
+  sustainable remote monitoring and management of apiaries based on iot and
+  microservices.
+\newblock {\em Journal of Open Innovation: Technology, Market, and Complexity},
+  9(3):100110.
+
+\bibitem[Danieli et~al. 2024]{danieli2024precision}
+Danieli, P.~P., Addeo, N.~F., Lazzari, F., Manganello, F., and Bovera, F.
+  (2024).
+\newblock Precision beekeeping systems: State of the art, pros and cons, and
+  their application as tools for advancing the beekeeping sector.
+\newblock {\em Animals}, 14(1):70.
+
+\bibitem[Erdogan et~al. 2024]{erdogan2024tinyagent}
+Erdogan, L.~E., Lee, N., Jha, S., Kim, S., Tabrizi, R., Moon, S., Hooper, C.
+  R.~C., Anumanchipalli, G., Keutzer, K., and Gholami, A. (2024).
+\newblock Tinyagent: Function calling at the edge.
+\newblock In {\em Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing: System Demonstrations}, pages 80--88.
+
+\bibitem[{Espressif Systems} 2026]{espressif2026espsr}
+{Espressif Systems} (2026).
+\newblock Esp-sr: Speech recognition framework.
+\newblock \url{https://github.com/espressif/esp-sr}.
+\newblock Acessado em setembro de 2026.
+
+\bibitem[Henry et~al. 2019]{henry2019precision}
+Henry, E., Adamchuk, V., Stanhope, T., Buddle, C., and Rindlaub, N. (2019).
+\newblock Precision apiculture: Development of a wireless sensor network for
+  honeybee hives.
+\newblock {\em Computers and Electronics in Agriculture}, 156:138--144.
+
+\bibitem[Meikle and Holst 2015]{meikle2015application}
+Meikle, W.~G. and Holst, N. (2015).
+\newblock Application of continuous monitoring of honeybee colonies.
+\newblock {\em Apidologie}, 46(1):10--22.
+
+\bibitem[Ndubuaku et~al. 2026]{ndubuaku2026controlled}
+Ndubuaku, H., Mosoyan, K., Mroz, J., Cylich, N., Kumar, S., Sandhu, P., Shemet,
+  R., and Lee, J.~H. (2026).
+\newblock A controlled study of attention-only transformers.
+\newblock Cactus Compute, Inc.
+
+\end{thebibliography}

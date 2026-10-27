@@ -1,0 +1,32 @@
+Projeto: Colmeia Embarcada
+Etapa: PT-03 — Preparação do motor host
+
+Motor: andrisgauracs/needle-2-esp32
+Commit: 61cafad7014a5664bb3ffd5f0c457ce5aa6598ae
+
+Sistema: Linux
+Python: 3.14.4
+CMake: 4.2.3
+GCC: 15.2.0
+
+Modelo: ainda não localizado
+Quantização: a confirmar
+Schema experimental: firmware/tools/colmeia.json
+Dataset: dataset/colmeia-needle2-dataset-teste.json
+
+Status: compilação e validação pendentes.
+
+Validação do motor:
+- Compilação host: concluída.
+- Teste de gramática: PASS (0 failures).
+- Teste numérico: PASS.
+- Teste de tokenização: PASS.
+
+Modelo:
+- Repositório: Cactus-Compute/needle2
+- Arquivo: needle2.cact
+- SHA-256: b43aabfcaf1a6db6acf488076eab71d823c08697c7af4521fc1d174b60ede5ba
+- Vocabulário: 8192
+- Camadas: 27
+- Janela KV: 256 tokens
+- Quantização: CQ2/CQ4

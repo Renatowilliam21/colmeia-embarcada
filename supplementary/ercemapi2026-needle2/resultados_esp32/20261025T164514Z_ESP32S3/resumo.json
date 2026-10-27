@@ -1,0 +1,10 @@
+{
+  "experiment": "PT-16",
+  "simulated": false,
+  "cases_expected": 36,
+  "cases_recorded": 36,
+  "cases_completed": 36,
+  "cases_incomplete": 0,
+  "source_sha256": "b035651f8d5d9705e58d9f64b2e5a737d56c207f410f7015bd07171c0cfa7e77",
+  "finished_at_utc": "2026-10-25T17:06:47.615799+00:00"
+}

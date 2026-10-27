@@ -1,0 +1,25 @@
+{
+  "experiment": "PT-16",
+  "platform": "esp32s3",
+  "simulated": false,
+  "started_at_utc": "2026-10-25T16:45:14.495806+00:00",
+  "source_file": "results/experiments/needle2_host/20261022T200512Z/raw_results.jsonl",
+  "source_sha256": "b035651f8d5d9705e58d9f64b2e5a737d56c207f410f7015bd07171c0cfa7e77",
+  "case_count_expected": 36,
+  "repetitions": 1,
+  "max_new": 96,
+  "think": false,
+  "serial_port": "/dev/ttyACM0",
+  "timeout_per_case_seconds": 240,
+  "physical_tool_execution": false,
+  "status": "completed",
+  "serial_sync": {
+    "command": "!think 0",
+    "confirmed": true,
+    "duration_seconds": 0.501,
+    "timeout_seconds": 180.0,
+    "received_bytes": 13,
+    "received_text_tail": "EVT think=0\r\n"
+  },
+  "finished_at_utc": "2026-10-25T17:06:47.615828+00:00"
+}

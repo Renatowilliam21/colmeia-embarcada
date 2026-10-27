@@ -1,0 +1,903 @@
+[
+  {
+    "id": 1,
+    "categoria": "diretos",
+    "frase": "Qual o status da colmeia 3?",
+    "esperado": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 3
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 3
+        }
+      }
+    ],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 2,
+    "categoria": "diretos",
+    "frase": "Colmeia 7: peso e temperatura atual.",
+    "esperado": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 7
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 7
+        }
+      }
+    ],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 3,
+    "categoria": "diretos",
+    "frase": "Tem alguma colmeia em alerta agora?",
+    "esperado": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 4,
+    "categoria": "diretos",
+    "frase": "Liste as colmeias com problema.",
+    "esperado": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "predito": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 5,
+    "categoria": "diretos",
+    "frase": "Ativa o modo inspecao na colmeia 5 por 20 minutos.",
+    "esperado": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 5,
+          "duracao_min": 20
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 5,
+          "duracao_min": 20
+        }
+      }
+    ],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 6,
+    "categoria": "diretos",
+    "frase": "Preciso inspecionar a colmeia 12, pausa os alertas por 30 minutos.",
+    "esperado": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 12,
+          "duracao_min": 30
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 12,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 7,
+    "categoria": "diretos",
+    "frase": "Como esta a colmeia 1?",
+    "esperado": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 8,
+    "categoria": "diretos",
+    "frase": "Mostra os dados da colmeia 9.",
+    "esperado": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 9
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 9
+        }
+      }
+    ],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 9,
+    "categoria": "variacoes_fala",
+    "frase": "E ai, a colmeia dois ta como?",
+    "esperado": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 2
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 10,
+    "categoria": "variacoes_fala",
+    "frase": "Da uma olhada na colmeia quatro pra mim.",
+    "esperado": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 4
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 4,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 11,
+    "categoria": "variacoes_fala",
+    "frase": "Alguma colmeia pedindo atencao?",
+    "esperado": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 12,
+    "categoria": "variacoes_fala",
+    "frase": "Quais colmeias estao fora do normal?",
+    "esperado": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "predito": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 13,
+    "categoria": "variacoes_fala",
+    "frase": "Vou abrir a colmeia 6, desliga o alerta por meia hora.",
+    "esperado": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 6,
+          "duracao_min": 30
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 6,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 14,
+    "categoria": "variacoes_fala",
+    "frase": "Bota a colmeia 15 em modo inspecao, uns 10 minutinhos.",
+    "esperado": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 15,
+          "duracao_min": 10
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 15,
+          "duracao_min": 10
+        }
+      }
+    ],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 15,
+    "categoria": "variacoes_fala",
+    "frase": "Peso da colmeia numero oito?",
+    "esperado": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 8
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 16,
+    "categoria": "variacoes_fala",
+    "frase": "Umidade e temperatura da colmeia 20, por favor.",
+    "esperado": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 20
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 20
+        }
+      }
+    ],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 17,
+    "categoria": "parametro_implicito",
+    "frase": "Ativa modo inspecao na colmeia 3.",
+    "esperado": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 3
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 3,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": true,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 18,
+    "categoria": "parametro_implicito",
+    "frase": "Preciso mexer na colmeia 11 rapidinho.",
+    "esperado": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 11
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 11
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": true,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 19,
+    "categoria": "parametro_implicito",
+    "frase": "Status.",
+    "esperado": null,
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": null,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": "argumentos esperados não são objeto",
+    "revisar_gabarito": true,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 20,
+    "categoria": "parametro_implicito",
+    "frase": "Colmeias com alerta nos ultimos dias?",
+    "esperado": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "predito": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 21,
+    "categoria": "parametro_implicito",
+    "frase": "Inspecao na colmeia 9 por um quarto de hora.",
+    "esperado": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 9,
+          "duracao_min": 15
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 9,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 22,
+    "categoria": "parametro_implicito",
+    "frase": "Coloca a colmeia 2 em inspecao ate eu terminar.",
+    "esperado": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 2
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": true,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 23,
+    "categoria": "ambiguos",
+    "frase": "Colmeia 3 e colmeia 4, como estao?",
+    "esperado": null,
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 3
+        }
+      },
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 4
+        }
+      }
+    ],
+    "exact_match_original": null,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": "argumentos esperados não são objeto",
+    "revisar_gabarito": true,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 24,
+    "categoria": "ambiguos",
+    "frase": "As colmeias da fileira de tras estao bem?",
+    "esperado": [],
+    "predito": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 25,
+    "categoria": "ambiguos",
+    "frase": "Coloca todas as colmeias em modo inspecao.",
+    "esperado": null,
+    "predito": [
+      {
+        "name": "listar_colmeias_alerta",
+        "arguments": {}
+      }
+    ],
+    "exact_match_original": null,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": "argumentos esperados não são objeto",
+    "revisar_gabarito": true,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 26,
+    "categoria": "ambiguos",
+    "frase": "A colmeia la do fundo, perto da mangueira, ta como?",
+    "esperado": [],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 27,
+    "categoria": "ambiguos",
+    "frase": "Inspecao na colmeia 5, tipo, agora.",
+    "esperado": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 5
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 5,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": true,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 28,
+    "categoria": "ambiguos",
+    "frase": "Quero saber da colmeia 3, mas so a temperatura.",
+    "esperado": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 3
+        }
+      }
+    ],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 3
+        }
+      }
+    ],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 29,
+    "categoria": "fora_escopo",
+    "frase": "Vai chover hoje?",
+    "esperado": [],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 30,
+    "categoria": "fora_escopo",
+    "frase": "Qual a previsao do tempo pra semana?",
+    "esperado": [],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 31,
+    "categoria": "fora_escopo",
+    "frase": "Quanto custa um quilo de mel?",
+    "esperado": [],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 32,
+    "categoria": "fora_escopo",
+    "frase": "Explica como funciona a colmeia.",
+    "esperado": [],
+    "predito": [
+      {
+        "name": "ativar_modo_inspecao",
+        "arguments": {
+          "colmeia_id": 1,
+          "duracao_min": 13
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 33,
+    "categoria": "fora_escopo",
+    "frase": "Oi, tudo bem?",
+    "esperado": [],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 34,
+    "categoria": "fora_escopo",
+    "frase": "Reinicia o sistema.",
+    "esperado": [],
+    "predito": [
+      {
+        "name": "consultar_status_colmeia",
+        "arguments": {
+          "colmeia_id": 1
+        }
+      }
+    ],
+    "exact_match_original": false,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 35,
+    "categoria": "fora_escopo",
+    "frase": "Qual o preco do dolar hoje?",
+    "esperado": [],
+    "predito": [],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  },
+  {
+    "id": 36,
+    "categoria": "fora_escopo",
+    "frase": "Manda um relatorio completo do mes passado.",
+    "esperado": [],
+    "predito": [],
+    "exact_match_original": true,
+    "schema_valido": true,
+    "erro_schema": null,
+    "erro_gabarito": null,
+    "revisar_gabarito": false,
+    "parse_error": null,
+    "returncode": 0
+  }
+]
